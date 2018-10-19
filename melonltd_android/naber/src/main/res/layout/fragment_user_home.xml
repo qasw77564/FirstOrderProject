@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_home_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context=".view.user.page.UserHomeFragment">
+
+
+    <cn.bingoogolapple.refreshlayout.BGARefreshLayout
+        android:id="@+id/top30BGARefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <cn.bingoogolapple.refreshlayout.BGAStickyNavLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <cn.bingoogolapple.bgabanner.BGABanner
+                android:id="@+id/homeBanner"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/naber_basis"
+                app:banner_indicatorGravity="center_horizontal|bottom"
+                app:banner_placeholderDrawable="@mipmap/naber_default_image"
+                app:banner_pointAutoPlayAble="true"
+                app:banner_pointAutoPlayInterval="3000"
+                app:banner_pointContainerBackground="@android:color/transparent"
+                app:banner_transitionEffect="defaultEffect" />
+
+            <!--app:banner_pointDrawable="@android:color/transparent"-->
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="NABER公告"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/bulletinText"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <!--<TextView-->
+                <!--android:id="@+id/bulletinText"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:background="@drawable/naber_text_base_line"-->
+                <!--android:ellipsize="end"-->
+                <!--android:padding="8dp"-->
+                <!--android:textSize="14sp"-->
+                <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/textView10" />-->
+
+                <com.sunfusheng.marqueeview.MarqueeView
+                    android:id="@+id/bulletinText"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/naber_text_base_line"
+                    android:padding="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView10"
+                    app:mvAnimDuration="500"
+                    app:mvDirection="bottom_to_top"
+                    app:mvInterval="3000"
+                    app:mvSingleLine="false"
+                    app:mvTextColor="@color/naber_tab_default_color"
+                    app:mvTextSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:minLines="1"
+                    android:padding="16dp"
+                    android:text="預留公告位置"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/top30RecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:overScrollMode="never"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:scrollbars="none" />
+
+        </cn.bingoogolapple.refreshlayout.BGAStickyNavLayout>
+    </cn.bingoogolapple.refreshlayout.BGARefreshLayout>
+
+</android.support.constraint.ConstraintLayout>

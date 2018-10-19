@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>349436914158-hlfnvtrjied1940aioru8c91n2lob7od.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.349436914158-hlfnvtrjied1940aioru8c91n2lob7od</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA9LXisMZqn_YibPjeIwUuH6n9SutGhZiM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>349436914158</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.melonltd.naber</string>
+	<key>PROJECT_ID</key>
+	<string>naber-20180622</string>
+	<key>STORAGE_BUCKET</key>
+	<string>naber-20180622.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:349436914158:ios:67d1a6d91930211e</string>
+	<key>DATABASE_URL</key>
+	<string>https://naber-20180622.firebaseio.com</string>
+</dict>
+</plist>

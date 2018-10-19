@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!--漸層顏色-->
+    <gradient
+        android:startColor="#ffffff"
+        android:endColor="#ffffff"
+        android:gradientRadius="5dp"
+        android:type="radial" />
+    <!--<solid android:color="#18506C" />-->
+
+    <!-- 文字與邊框的間距 -->
+    <!--<padding-->
+        <!--android:top="0dp"-->
+        <!--android:right="0dp"-->
+        <!--android:bottom="0dp"-->
+        <!--android:left="0dp"/>-->
+    <!-- 形狀大小 -->
+    <size
+        android:width="10dp"
+        android:height="10dp" />
+    <!-- 邊框線 -->
+    <stroke
+        android:width="0dp"
+        android:color="@android:color/black"
+        android:dashGap="0dp"
+        android:dashWidth="5dp" />
+</shape>

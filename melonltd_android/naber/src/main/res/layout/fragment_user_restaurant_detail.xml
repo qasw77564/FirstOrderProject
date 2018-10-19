@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_restaurant_detail_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context=".view.user.page.UserRestaurantDetailFragment">
+
+
+    <cn.bingoogolapple.refreshlayout.BGARefreshLayout
+        android:id="@+id/restaurantBGARefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <cn.bingoogolapple.refreshlayout.BGAStickyNavLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/restaurantDetailImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/naber_basis"
+                    android:src="@drawable/naber_default_image"
+                    app:layout_constraintBottom_toTopOf="@+id/view13"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    fresco:failureImage="@drawable/naber_default_image"
+                    fresco:retryImage="@drawable/naber_default_image" />
+
+                <View
+                    android:id="@+id/view13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/restaurantDetailImage" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/view14"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/naber_restaurant_detail_radius_background_style"
+                    android:padding="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/view13"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/view13">
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/restaurantImageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/naber_icon_logo_reverse"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        fresco:roundedCornerRadius="15dp"
+                        fresco:failureImage="@drawable/naber_icon_logo_reverse"
+                        fresco:retryImage="@drawable/naber_icon_logo_reverse" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:src="@drawable/naber_icon_clock"
+                        app:layout_constraintEnd_toStartOf="@+id/businessTimeText"
+                        app:layout_constraintStart_toEndOf="@+id/restaurantImageView"
+                        app:layout_constraintTop_toBottomOf="@+id/restaurantNameText" />
+
+                    <TextView
+                        android:id="@+id/restaurantNameText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="8dp"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+                        app:layout_constraintStart_toEndOf="@+id/restaurantImageView"
+                        app:layout_constraintTop_toTopOf="@+id/restaurantImageView" />
+
+                    <TextView
+                        android:id="@+id/businessTimeText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="4dp"
+                        android:maxLines="1"
+                        android:text=""
+                        app:layout_constraintBottom_toTopOf="@+id/addressText"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView4"
+                        app:layout_constraintTop_toBottomOf="@+id/restaurantNameText" />
+
+
+                    <!--businessTimeText-->
+                    <TextView
+                        android:id="@+id/addressText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:maxLines="1"
+                        android:text=""
+                        app:layout_constraintBottom_toTopOf="@+id/getTypeText"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/businessTimeText"
+                        app:layout_constraintTop_toBottomOf="@+id/businessTimeText" />
+
+                    <TextView
+                        android:id="@+id/getTypeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:background="@drawable/naber_reverse_gary_button_style"
+                        android:paddingEnd="4dp"
+                        android:paddingStart="4dp"
+                        android:text="自取"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/addressText"
+                        app:layout_constraintTop_toBottomOf="@+id/addressText" />
+
+                    <TextView
+                        android:id="@+id/distanceText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginTop="4dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/restaurantImageView" />
+
+                    <TextView
+                        android:id="@+id/warningText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:gravity="end"
+                        android:text="今日已結束接單"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/naber_basis_red"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="@+id/getTypeText"
+                        app:layout_constraintEnd_toEndOf="@+id/addressText"
+                        app:layout_constraintStart_toEndOf="@+id/getTypeText"
+                        app:layout_constraintTop_toTopOf="@+id/getTypeText" />
+
+                </android.support.constraint.ConstraintLayout>
+
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/naber_reverse_gary_button_style"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toTopOf="@+id/textView73"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/textView60"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:text="商家公告"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp">
+
+                        <TextView
+                            android:id="@+id/restaurantDetailBulletinText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="16dp"
+                            android:paddingEnd="8dp"
+                            android:paddingStart="8dp"
+                            android:paddingTop="8dp"
+                            android:text="暫無公告"
+                            android:textSize="12sp" />
+                    </ScrollView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/naber_text_base_line"
+                    android:padding="8dp"
+                    android:text="選擇種類"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout7" />
+
+            </android.support.constraint.ConstraintLayout>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/restaurantRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:overScrollMode="never"
+                android:scrollbars="none" />
+
+        </cn.bingoogolapple.refreshlayout.BGAStickyNavLayout>
+    </cn.bingoogolapple.refreshlayout.BGARefreshLayout>
+
+</android.support.constraint.ConstraintLayout>

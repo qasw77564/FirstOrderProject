@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seller_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".view.seller.SellerMainActivity"
+    tools:openDrawer="start">
+
+    <include layout="@layout/content_seller" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/seller_nav_view"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/naber_dividing_gray"
+        android:fitsSystemWindows="false"
+        android:paddingLeft="-1dp"
+        android:paddingRight="-1dp"
+        android:theme="@style/ThemeOverlay.AppCompat.navTheme"
+        android:visibility="visible">
+
+        <cn.bingoogolapple.refreshlayout.BGARefreshLayout
+            android:id="@+id/sellerGARefreshLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <cn.bingoogolapple.refreshlayout.BGAStickyNavLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp" />
+
+                <TextView
+                    android:id="@+id/textView76"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/naber_basis"
+                    android:gravity="center"
+                    android:text="接單開關"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.NoActionBar.AppBarOverlay" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/sellerRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginTop="0dp"
+                    android:overScrollMode="never"
+                    android:paddingBottom="0dp"
+                    android:paddingTop="0dp"
+                    android:scrollbars="none" />
+
+            </cn.bingoogolapple.refreshlayout.BGAStickyNavLayout>
+        </cn.bingoogolapple.refreshlayout.BGARefreshLayout>
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
+

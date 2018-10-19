@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seller_registered_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".view.common.page.RegisteredSellerFragment">
+
+    <EditText
+        android:id="@+id/storeNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        android:paddingLeft="100dp"
+        android:paddingStart="100dp"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/storeAddressEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/storeAddressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:maxLines="1"
+        android:paddingLeft="100dp"
+        android:paddingStart="100dp"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/sellerContactPersonEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/storeNameEditText" />
+
+    <EditText
+        android:id="@+id/sellerContactPersonEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:maxLines="1"
+        android:paddingLeft="100dp"
+        android:paddingStart="100dp"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/sellerContactPhoneEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/storeAddressEditText" />
+
+    <EditText
+        android:id="@+id/sellerContactPhoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:inputType="number"
+        android:maxLines="1"
+        android:paddingLeft="100dp"
+        android:paddingStart="100dp"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/sellerSubmitBun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sellerContactPersonEditText" />
+
+    <Button
+        android:id="@+id/sellerSubmitBun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/naber_basis"
+        android:text="註冊"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/sellerBackToLoginBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sellerContactPhoneEditText" />
+
+    <Button
+        android:id="@+id/sellerBackToLoginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:text="@string/registered_existing_account_btn_text"
+        android:textColor="@color/naber_basis_orange"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sellerSubmitBun" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="商家名稱"
+        app:layout_constraintBottom_toBottomOf="@+id/storeNameEditText"
+        app:layout_constraintStart_toStartOf="@+id/storeNameEditText"
+        app:layout_constraintTop_toTopOf="@+id/storeNameEditText" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="商家地址"
+        app:layout_constraintBottom_toBottomOf="@+id/storeAddressEditText"
+        app:layout_constraintStart_toStartOf="@+id/storeAddressEditText"
+        app:layout_constraintTop_toTopOf="@+id/storeAddressEditText" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="聯絡人姓名"
+        app:layout_constraintBottom_toBottomOf="@+id/sellerContactPersonEditText"
+        app:layout_constraintStart_toStartOf="@+id/sellerContactPersonEditText"
+        app:layout_constraintTop_toTopOf="@+id/sellerContactPersonEditText" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="聯繫電話"
+        app:layout_constraintBottom_toBottomOf="@+id/sellerContactPhoneEditText"
+        app:layout_constraintStart_toStartOf="@+id/sellerContactPhoneEditText"
+        app:layout_constraintTop_toTopOf="@+id/sellerContactPhoneEditText" />
+
+</android.support.constraint.ConstraintLayout>

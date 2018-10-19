@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/restaurantNameText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/naber_background_gradient_gray_top"
+        android:padding="8dp"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ordersItemsLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ordersItemsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/submitOrdersBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/restaurantNameText"></LinearLayout>
+
+    <Button
+        android:id="@+id/deleteOrdersBtn"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/naber_reverse_orange_button_style"
+        android:padding="0dp"
+        android:text="取消此單"
+        android:textColor="@color/naber_basis_orange"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/submitOrdersBtn"
+        app:layout_constraintEnd_toStartOf="@+id/textView79"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/submitOrdersBtn" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingEnd="4dp"
+        android:paddingRight="4dp"
+        android:text="總金額"
+        android:textAlignment="textEnd"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ordersTotalAmountText"
+        app:layout_constraintEnd_toStartOf="@+id/ordersTotalAmountText"
+        app:layout_constraintStart_toEndOf="@+id/deleteOrdersBtn"
+        app:layout_constraintTop_toTopOf="@+id/ordersTotalAmountText" />
+
+    <TextView
+        android:id="@+id/ordersTotalAmountText"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="$"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bonusText"
+        app:layout_constraintEnd_toStartOf="@+id/submitOrdersBtn"
+        app:layout_constraintStart_toEndOf="@+id/textView79"
+        app:layout_constraintTop_toTopOf="@+id/submitOrdersBtn" />
+
+    <TextView
+        android:id="@+id/bonusText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/submitOrdersBtn"
+        app:layout_constraintEnd_toEndOf="@+id/ordersTotalAmountText"
+        app:layout_constraintStart_toEndOf="@+id/deleteOrdersBtn"
+        app:layout_constraintTop_toBottomOf="@+id/ordersTotalAmountText" />
+
+    <Button
+        android:id="@+id/submitOrdersBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/naber_red_button_style"
+        android:text="下一步"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/view7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bonusText"
+        app:layout_constraintTop_toBottomOf="@+id/ordersItemsLayout" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submitOrdersBtn"></View>
+
+</android.support.constraint.ConstraintLayout>

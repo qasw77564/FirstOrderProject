@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logo_text_1">NABER</string>
+    <string name="logo_text_2">你的好鄰居</string>
+    <string name="account_edit_hint_text">手機號或帳號</string>
+    <string name="password_edit_hint_text">密碼</string>
+    <string name="gender_text">性別</string>
+    <string name="forget_password_text">忘記密碼？</string>
+    <string name="login_btn_text">登入</string>
+    <string name="registered_btn_text">註冊</string>
+    <string name="seller_registered_btn_text">申請為店家</string>
+    <string name="foot_text_1">邁倫資訊科技有限公司</string>
+    <string name="foot_text_2"> \@ 2017 Melon LTD, Inc. 保留所有權利</string>
+    <string name="exchange_btn_text">立即兌換</string>
+
+    <!-- popup msg-->
+    <string name="account_wrong_format">Email格式錯誤</string>
+    <string name="password_wrong_format">密碼格式錯誤</string>
+    <string name="account_does_not_exist">查無此帳號，請確認帳號密碼是否正確！</string>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- common page -->
+    <string name="common_page_login_title">登入</string>
+    <string name="common_page_recover_password_title">忘記密碼</string>
+    <string name="common_page_reset_password_title">重設密碼</string>
+
+    <!-- bottom menu name-->
+    <string name="menu_home_btn">首頁</string>
+    <string name="menu_restaurant_btn">餐館</string>
+    <string name="menu_shopping_cart_btn">購物車</string>
+    <string name="menu_history_btn">訂單</string>
+    <string name="menu_set_up_btn">設定</string>
+    <string name="menu_account_btn">個人</string>
+
+    <!-- page names -->
+    <string name="user_page_simple_info_title">資訊</string>
+    <string name="user_page_account_detail_title">帳號設定</string>
+    <string name="user_page_restaurant_detail_title">餐館詳情</string>
+    <string name="user_page_category_menu_title"></string>
+
+    <string name="user_page_menu_detail_title"></string>
+    <string name="user_page_submit_order_title">送出訂單</string>
+    <string name="user_page_registered_title">註冊</string>
+    <string name="user_page_verify_sms_title">電話驗證</string>
+    <string name="user_page_order_detail_title">訂單詳情</string>
+    <string name="user_page_bonus_exchange_title">紅利兌換項目</string>
+    <string name="user_page_bonus_exchange_detail_title">紅利兌換項目</string>
+    <string name="user_page_exchange_submit_orders">送出兌換</string>
+
+
+
+    <!-- seller page -->
+    <string name="seller_menu_search_btn">快速查詢</string>
+    <string name="seller_menu_orders_btn">訂單</string>
+    <string name="seller_menu_stat_btn">營運概況</string>
+    <string name="seller_menu_orders_logs">營運概況</string>
+    <string name="seller_menu_orders_logs_detail">營運概況</string>
+    <string name="seller_menu_category_list_btn">菜單</string>
+    <string name="seller_menu_food_list">菜單</string>
+    <string name="seller_menu_food_edit">產品細項</string>
+    <string name="seller_menu_set_up_btn">設定</string>
+    <string name="seller_menu_seller_detail">商家設定</string>
+    <string name="seller_menu_simple_information">關於我們</string>
+    <string name="seller_page_registered_title">商家註冊</string>
+
+
+
+</resources>

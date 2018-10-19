@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/user_restaurant_page"
+    android:layout_height="match_parent"
+    tools:context=".view.user.page.UserRestaurantListFragment">
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/filterTypeText"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:padding="8dp"-->
+        <!--android:text="filter result"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/filterCategoryBtn"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/filterCategoryBtn"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/filterCategoryBtn" />-->
+
+    <Button
+        android:id="@+id/filterNameBtn"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/naber_reverse_gary_button_style"
+        android:text="店名搜索"
+        app:layout_constraintBottom_toBottomOf="@+id/filterCategoryBtn"
+        app:layout_constraintEnd_toStartOf="@+id/filterCategoryBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/filterCategoryBtn" />
+
+    <Button
+        android:id="@+id/filterCategoryBtn"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/naber_reverse_gary_button_style"
+        android:text="選擇學校"
+        app:layout_constraintBottom_toTopOf="@+id/view6"
+        app:layout_constraintEnd_toStartOf="@+id/filterAreaBtn"
+        app:layout_constraintStart_toEndOf="@+id/filterNameBtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/filterAreaBtn"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/naber_reverse_gary_button_style"
+        android:text="其他店家"
+        app:layout_constraintBottom_toBottomOf="@+id/filterCategoryBtn"
+        app:layout_constraintEnd_toStartOf="@+id/filterDistanceBtn"
+        app:layout_constraintStart_toEndOf="@+id/filterCategoryBtn"
+        app:layout_constraintTop_toTopOf="@+id/filterCategoryBtn" />
+
+    <Button
+        android:id="@+id/filterDistanceBtn"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/naber_reverse_gary_button_style"
+        android:text="離我最近"
+        app:layout_constraintBottom_toBottomOf="@+id/filterCategoryBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/filterAreaBtn"
+        app:layout_constraintTop_toTopOf="@+id/filterCategoryBtn" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/restaurantBGARefreshLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filterCategoryBtn" />
+
+
+    <cn.bingoogolapple.refreshlayout.BGARefreshLayout
+        android:id="@+id/restaurantBGARefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view6">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/restaurantRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+    </cn.bingoogolapple.refreshlayout.BGARefreshLayout>
+
+</android.support.constraint.ConstraintLayout>

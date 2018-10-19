@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/naber_basis">
+
+        <TextView
+            android:onClick="onClick"
+            android:id="@+id/text_sort"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="right"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:text="編輯排序"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/naber_basis"/>
+
+    </android.support.v7.widget.Toolbar>
+</android.support.constraint.ConstraintLayout>

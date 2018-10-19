@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.wang.avi.AVLoadingIndicatorView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/avi"
+    style="@style/AVLoadingIndicatorView.Large"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:background="@android:color/transparent"
+    android:layout_centerInParent="true"
+    android:visibility="visible"
+    app:indicatorColor="@color/naber_dividing_line_gray"
+    app:indicatorName="BallSpinFadeLoaderIndicator" />
+
+    <!--row.1--><!--BallPulseIndicator--><!--BallGridPulseIndicator--><!--BallClipRotateIndicator--><!--BallClipRotatePulseIndicator-->
+
+    <!--row.2--><!--SquareSpinIndicator--><!--BallClipRotateMultipleIndicator--><!--BallPulseRiseIndicator--><!--BallRotateIndicator-->
+
+    <!--row.3--><!--CubeTransitionIndicator--><!--BallZigZagIndicator--><!--BallZigZagDeflectIndicator--><!--BallTrianglePathIndicator-->
+
+    <!--row.4--><!--BallScaleIndicator--><!--LineScaleIndicator--><!--LineScalePartyIndicator--><!--BallScaleMultipleIndicator-->
+
+    <!--row.5--><!--BallPulseSyncIndicator--><!--BallBeatIndicator--><!--LineScalePulseOutIndicator--><!--LineScalePulseOutRapidIndicator-->
+
+    <!--row.6--><!--BallScaleRippleIndicator--><!--BallScaleRippleMultipleIndicator--><!--BallSpinFadeLoaderIndicator--><!--LineSpinFadeLoaderIndicator-->
+
+    <!--row.7--><!--TriangleSkewSpinIndicator--><!--PacmanIndicator--><!--BallGridBeatIndicator--><!--SemiCircleSpinIndicator-->
+
+    <!--row.8--><!--com.wang.avi.sample.MyCustomIndicator-->

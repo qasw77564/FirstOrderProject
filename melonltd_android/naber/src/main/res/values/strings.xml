@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">NABER</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_seller">SellerActivity</string>
+
+
+    <!-- data time picker msg-->
+    <!--<string name="data_time_picker_years_text">  年</string>-->
+    <!--<string name="data_time_picker_month_text">  月</string>-->
+    <!--<string name="data_time_picker_day_text">  日</string>-->
+    <!--<string name="data_time_picker_hour_text">  時</string>-->
+    <!--<string name="data_time_picker_minuter_text">  分</string>-->
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <!--<string name="notification_channel_id">default</string>-->
+
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="title_activity_base_intro">BaseIntroActivity</string>
+
+</resources>

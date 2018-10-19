@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="verify_sms_text_1">加入NABER</string>
+    <string name="phone_number_edit_hint_text">請輸入手機號碼</string>
+    <string name="verify_number_edit_hint_text">請輸驗證碼</string>
+    <string name="send_verify_code_btn">發送驗證碼</string>
+    <string name="is_read_and_agree_text">已經閱讀並同意</string>
+    <string name="privacy_policy_text">隱私權政策條款</string>
+    <string name="submit_verify_btn">送出</string>
+    <!--<string name="seller_registered_btn_text">申請為店家</string>-->
+    <!--<string name="foot_text_1">邁倫資訊科技有限公司</string>-->
+    <!--<string name="foot_text_2"> \@ 2017 Melon LTD, Inc. 保留所有權利</string>-->
+
+    <!-- popup msg-->
+    <!--<string name="mail_wrong_format">Email格式錯誤</string>-->
+    <!--<string name="password_wrong_format">密碼格式錯誤</string>-->
+    <!--<string name="account_does_not_exist">查無此帳號，請確認帳號密碼是否正確！</string>-->
+
+</resources>

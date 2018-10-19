@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">@android:color/darker_gray</color>
+
+    <!-- naber basis-->
+
+    <color name="naber_basis">#ece368</color>
+    <color name="naber_basis_bright_yellow">#fef035</color>
+    <color name="naber_basis_red">#ea2105</color>
+    <color name="naber_basis_blue">#1ba3e5</color>
+    <color name="naber_basis_bright_green">#29fd2e</color>
+    <color name="naber_basis_green">#80e438</color>
+    <color name="naber_basis_orange">#f06f49</color>
+    <color name="naber_basis_purple">#847ec3</color>
+
+    <color name="naber_dividing_line_gray">#bcbcbc</color>
+    <color name="naber_dividing_gray">#f6f6f6</color>
+    <color name="naber_tab_default_color">#2d2d2d</color>
+
+    <color name="naber_transparent">#00000000</color>
+
+
+</resources>

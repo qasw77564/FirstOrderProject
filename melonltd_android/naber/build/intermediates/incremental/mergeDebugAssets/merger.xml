@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/melon/Documents/git/melonltd_android/naber/src/main/assets"><file name="identity.json" path="/Users/melon/Documents/git/melonltd_android/naber/src/main/assets/identity.json"/></source><source path="/Users/melon/Documents/git/melonltd_android/naber/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/melon/Documents/git/melonltd_android/naber/src/debug/assets"/></dataSet></merger>

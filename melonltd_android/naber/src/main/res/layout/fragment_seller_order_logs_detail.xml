@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seller_order_logs_detail_page"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:overScrollMode="never"
+    android:padding="16dp"
+    android:scrollbars="none"
+    tools:context=".view.seller.page.SellerOrderLogsDetailFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/naber_reverse_gary_button_style">
+
+        <View
+            android:id="@+id/toolerView"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="1dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/naber_basis"
+            app:layout_constraintBottom_toTopOf="@+id/logsItemText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/meal_Text"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:padding="8dp"-->
+            <!--android:paddingEnd="0dp"-->
+            <!--android:paddingRight="0dp"-->
+            <!--android:text="外帶"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="16sp"-->
+            <!--app:layout_constraintBottom_toBottomOf="@+id/toolerView"-->
+            <!--app:layout_constraintEnd_toEndOf="@+id/toolerView"-->
+            <!--app:layout_constraintTop_toTopOf="@+id/toolerView" />-->
+
+        <TextView
+            android:id="@+id/logsItemText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:text="商品"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/foodContentText"
+            app:layout_constraintEnd_toStartOf="@+id/foodCountText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolerView" />
+
+        <TextView
+            android:id="@+id/foodCountText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="()"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/logsItemText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/logsItemText"
+            app:layout_constraintTop_toTopOf="@+id/logsItemText" />
+
+        <TextView
+            android:id="@+id/foodContentText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/naber_text_base_line"
+            android:paddingBottom="8dp"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:text=""
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logsItemText"></TextView>
+
+        <TextView
+            android:id="@+id/textView85"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="備註欄"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/userMessageEdit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/foodContentText" />
+
+        <TextView
+            android:id="@+id/userMessageEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/naber_text_base_line"
+            android:paddingBottom="8dp"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:text=""
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView87"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView85" />
+
+        <TextView
+            android:id="@+id/textView87"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/naber_text_base_line"
+            android:padding="8dp"
+            android:text="下單時間"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView89"
+            app:layout_constraintEnd_toStartOf="@+id/fetchDateText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userMessageEdit" />
+
+        <TextView
+            android:id="@+id/fetchDateText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/naber_text_base_line"
+            android:padding="8dp"
+            android:text=""
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView87"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView87" />
+
+        <TextView
+            android:id="@+id/textView89"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/naber_text_base_line"
+            android:padding="8dp"
+            android:text="電話"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView94"
+            app:layout_constraintEnd_toStartOf="@+id/userPhoneText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView87" />
+
+        <TextView
+            android:id="@+id/userPhoneText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/naber_text_base_line"
+            android:padding="8dp"
+            android:text=""
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView89"
+            app:layout_constraintEnd_toStartOf="@+id/textView91"
+            app:layout_constraintStart_toEndOf="@+id/textView89" />
+
+        <TextView
+            android:id="@+id/textView91"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/naber_text_base_line"
+            android:padding="8dp"
+            android:text="姓名"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/userPhoneText"
+            app:layout_constraintEnd_toStartOf="@+id/userNameText"
+            app:layout_constraintStart_toEndOf="@+id/userPhoneText" />
+
+        <TextView
+            android:id="@+id/userNameText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/naber_text_base_line"
+            android:padding="8dp"
+            android:text=""
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView91"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView91" />
+
+        <TextView
+            android:id="@+id/textView94"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/naber_text_base_line"
+            android:padding="8dp"
+            android:text="總金額"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView89" />
+
+        <TextView
+            android:id="@+id/priceEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="8dp"
+            android:text="$"
+            android:textColor="@color/naber_basis_red"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView94"
+            app:layout_constraintStart_toStartOf="@+id/textView94"
+            app:layout_constraintTop_toTopOf="@+id/textView94" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView94">
+
+            <Button
+                android:id="@+id/statusBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/naber_basis_red"
+                android:text="取消"
+                android:textColor="@android:color/white"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

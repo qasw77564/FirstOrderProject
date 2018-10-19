@@ -1,0 +1,1089 @@
+
+/* Class = "UITextField"; placeholder = "請輸入驗證碼"; ObjectID = "08Z-Wv-4L9"; */
+"08Z-Wv-4L9.placeholder" = "請輸入驗證碼";
+
+/* Class = "UILabel"; text = "選項"; ObjectID = "0E8-bg-fXu"; */
+"0E8-bg-fXu.text" = "選項";
+
+/* Class = "UILabel"; text = "總額"; ObjectID = "0Id-XS-c6o"; */
+"0Id-XS-c6o.text" = "總額";
+
+/* Class = "UILabel"; text = "商家公告"; ObjectID = "0Oa-fU-Ez1"; */
+"0Oa-fU-Ez1.text" = "商家公告";
+
+/* Class = "UILabel"; text = "未處理的訂單"; ObjectID = "0xb-Fq-wFu"; */
+"0xb-Fq-wFu.text" = "未處理的訂單";
+
+/* Class = "UILabel"; text = "2018-05-22 10:22"; ObjectID = "1Qi-uz-kY8"; */
+"1Qi-uz-kY8.text" = "2018-05-22 10:22";
+
+/* Class = "UILabel"; text = "AM10:00-PM20:00"; ObjectID = "1bu-wG-hlr"; */
+"1bu-wG-hlr.text" = "AM10:00-PM20:00";
+
+/* Class = "UILabel"; text = "紅利點數"; ObjectID = "1gb-De-WBJ"; */
+"1gb-De-WBJ.text" = "紅利點數";
+
+/* Class = "UIButton"; normalTitle = "十"; ObjectID = "1zc-CB-XED"; */
+"1zc-CB-XED.normalTitle" = "十";
+
+/* Class = "UILabel"; text = "備註欄"; ObjectID = "28z-nG-Ha5"; */
+"28z-nG-Ha5.text" = "備註欄";
+
+/* Class = "UILabel"; text = "AM08:00~PM08:00"; ObjectID = "2FG-Sb-tEs"; */
+"2FG-Sb-tEs.text" = "AM08:00~PM08:00";
+
+/* Class = "UIButton"; normalTitle = "新增需求"; ObjectID = "2Ph-1m-GWR"; */
+"2Ph-1m-GWR.normalTitle" = "新增需求";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "32B-V0-gDi"; */
+"32B-V0-gDi.text" = "Label";
+
+/* Class = "UILabel"; text = "$0"; ObjectID = "3C5-bp-kbY"; */
+"3C5-bp-kbY.text" = "$0";
+
+/* Class = "UILabel"; text = "可領取的訂單"; ObjectID = "3Ey-HA-Ysu"; */
+"3Ey-HA-Ysu.text" = "可領取的訂單";
+
+/* Class = "UILabel"; text = "姓名"; ObjectID = "3Qv-aV-CCf"; */
+"3Qv-aV-CCf.text" = "姓名";
+
+/* Class = "UIButton"; normalTitle = "刪除"; ObjectID = "3nF-ga-0Xd"; */
+"3nF-ga-0Xd.normalTitle" = "刪除";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "4Fp-6b-lej"; */
+"4Fp-6b-lej.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "備註訊息"; ObjectID = "4Ub-1I-fMK"; */
+"4Ub-1I-fMK.text" = "備註訊息";
+
+/* Class = "UILabel"; text = "重設密碼"; ObjectID = "4Vo-f2-ElA"; */
+"4Vo-f2-ElA.text" = "重設密碼";
+
+/* Class = "UILabel"; text = "姓名"; ObjectID = "4il-ya-OsG"; */
+"4il-ya-OsG.text" = "姓名";
+
+/* Class = "UIButton"; normalTitle = "十"; ObjectID = "4qw-Q2-2UI"; */
+"4qw-Q2-2UI.normalTitle" = "十";
+
+/* Class = "UILabel"; text = "10:00~11:00"; ObjectID = "4zo-Xe-S7k"; */
+"4zo-Xe-S7k.text" = "10:00~11:00";
+
+/* Class = "UILabel"; text = "200"; ObjectID = "50p-L4-Gf8"; */
+"50p-L4-Gf8.text" = "200";
+
+/* Class = "UILabel"; text = "第一頁教學畫面需要填入"; ObjectID = "576-zo-scl"; */
+"576-zo-scl.text" = "第一頁教學畫面需要填入";
+
+/* Class = "UILabel"; text = "商品"; ObjectID = "57R-dA-g3i"; */
+"57R-dA-g3i.text" = "商品";
+
+/* Class = "UILabel"; text = "身份"; ObjectID = "58z-JE-Mdx"; */
+"58z-JE-Mdx.text" = "身份";
+
+/* Class = "UILabel"; text = "領餐時間"; ObjectID = "5HA-kf-5K4"; */
+"5HA-kf-5K4.text" = "領餐時間";
+
+/* Class = "UILabel"; text = "商家名稱："; ObjectID = "5U3-hm-V4E"; */
+"5U3-hm-V4E.text" = "商家名稱：";
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "5gr-gp-ONt"; */
+"5gr-gp-ONt.text" = "About Us";
+
+/* Class = "UITableViewController"; title = "帳號"; ObjectID = "5ka-NK-iMz"; */
+"5ka-NK-iMz.title" = "帳號";
+
+/* Class = "UITabBarItem"; title = "營運概況"; ObjectID = "5o5-MW-tVK"; */
+"5o5-MW-tVK.title" = "營運概況";
+
+/* Class = "UITextField"; placeholder = "請輸入此需求名稱"; ObjectID = "5r7-z2-FIz"; */
+"5r7-z2-FIz.placeholder" = "請輸入此需求名稱";
+
+/* Class = "UILabel"; text = "0987654321"; ObjectID = "62V-lH-Ndx"; */
+"62V-lH-Ndx.text" = "0987654321";
+
+/* Class = "UILabel"; text = "大杯"; ObjectID = "6JN-aX-5Dz"; */
+"6JN-aX-5Dz.text" = "大杯";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "6Mc-k2-WiT"; */
+"6Mc-k2-WiT.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "你的電話"; ObjectID = "6Mk-rH-Hy6"; */
+"6Mk-rH-Hy6.text" = "你的電話";
+
+/* Class = "UIButton"; normalTitle = "關閉"; ObjectID = "6q3-Ql-Hbb"; */
+"6q3-Ql-Hbb.normalTitle" = "關閉";
+
+/* Class = "UILabel"; text = "其它"; ObjectID = "6wV-tp-t7x"; */
+"6wV-tp-t7x.text" = "其它";
+
+/* Class = "UILabel"; text = "聯絡電話"; ObjectID = "7D7-Ua-EcN"; */
+"7D7-Ua-EcN.text" = "聯絡電話";
+
+/* Class = "UILabel"; text = "姓名"; ObjectID = "7UA-vj-wAE"; */
+"7UA-vj-wAE.text" = "姓名";
+
+/* Class = "UIViewController"; title = "選擇系列"; ObjectID = "7y7-oy-GvE"; */
+"7y7-oy-GvE.title" = "選擇系列";
+
+/* Class = "UITextField"; placeholder = "找回密碼時使用"; ObjectID = "86T-De-qX3"; */
+"86T-De-qX3.placeholder" = "找回密碼時使用";
+
+/* Class = "UILabel"; text = "24日11點12分"; ObjectID = "87Y-3p-5kN"; */
+"87Y-3p-5kN.text" = "24日11點12分";
+
+/* Class = "UIButton"; normalTitle = "十"; ObjectID = "8oF-UQ-gXc"; */
+"8oF-UQ-gXc.normalTitle" = "十";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "8pr-5n-ohx"; */
+"8pr-5n-ohx.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "教學結束"; ObjectID = "8r4-gp-itM"; */
+"8r4-gp-itM.normalTitle" = "教學結束";
+
+/* Class = "UILabel"; text = "加入NABER"; ObjectID = "8zL-C8-ptV"; */
+"8zL-C8-ptV.text" = "加入NABER";
+
+/* Class = "UILabel"; text = "桃園市桃園區中山路988號"; ObjectID = "971-sZ-jU8"; */
+"971-sZ-jU8.text" = "桃園市桃園區中山路988號";
+
+/* Class = "UILabel"; text = "總金額"; ObjectID = "98r-PZ-rEB"; */
+"98r-PZ-rEB.text" = "總金額";
+
+/* Class = "UILabel"; text = "生日"; ObjectID = "9ZZ-3j-EH6"; */
+"9ZZ-3j-EH6.text" = "生日";
+
+/* Class = "UILabel"; text = "$0"; ObjectID = "9qT-RV-enI"; */
+"9qT-RV-enI.text" = "$0";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "AhU-a6-H41"; */
+"AhU-a6-H41.text" = "Email";
+
+/* Class = "UIViewController"; title = "申請為店家"; ObjectID = "B5r-nR-55Q"; */
+"B5r-nR-55Q.title" = "申請為店家";
+
+/* Class = "UILabel"; text = "追加"; ObjectID = "B6K-84-i5V"; */
+"B6K-84-i5V.text" = "追加";
+
+/* Class = "UILabel"; text = "快速查單"; ObjectID = "B6V-7A-Rnw"; */
+"B6V-7A-Rnw.text" = "快速查單";
+
+/* Class = "UIViewController"; title = "註冊"; ObjectID = "B82-Ny-LmJ"; */
+"B82-Ny-LmJ.title" = "註冊";
+
+/* Class = "UIViewController"; title = "NABER"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "NABER";
+
+/* Class = "UILabel"; text = "備註欄"; ObjectID = "Bc4-yk-1jS"; */
+"Bc4-yk-1jS.text" = "備註欄";
+
+/* Class = "UIViewController"; title = "已完成的訂單"; ObjectID = "Bms-Px-DCr"; */
+"Bms-Px-DCr.title" = "已完成的訂單";
+
+/* Class = "UILabel"; text = "今日收入"; ObjectID = "Bqn-Yd-a1F"; */
+"Bqn-Yd-a1F.text" = "今日收入";
+
+/* Class = "UILabel"; text = "某某某"; ObjectID = "Bu5-FK-fjw"; */
+"Bu5-FK-fjw.text" = "某某某";
+
+/* Class = "UILabel"; text = "$340"; ObjectID = "C33-fd-MD6"; */
+"C33-fd-MD6.text" = "$340";
+
+/* Class = "UIButton"; normalTitle = "處理中"; ObjectID = "CE7-VN-bVg"; */
+"CE7-VN-bVg.normalTitle" = "處理中";
+
+/* Class = "UILabel"; text = "距離1000M"; ObjectID = "CNP-85-eYM"; */
+"CNP-85-eYM.text" = "距離1000M";
+
+/* Class = "UILabel"; text = "已完成的訂單"; ObjectID = "CTc-eF-q94"; */
+"CTc-eF-q94.text" = "已完成的訂單";
+
+/* Class = "UILabel"; text = "Hello,歡迎大家來到清玉民族店，希望我們能成為好鄰居"; ObjectID = "CVh-kv-rSW"; */
+"CVh-kv-rSW.text" = "Hello,歡迎大家來到清玉民族店，希望我們能成為好鄰居";
+
+/* Class = "UILabel"; text = "帳號"; ObjectID = "CaS-Oy-Tmh"; */
+"CaS-Oy-Tmh.text" = "帳號";
+
+/* Class = "UILabel"; text = "$0"; ObjectID = "Cbo-EY-Re2"; */
+"Cbo-EY-Re2.text" = "$0";
+
+/* Class = "UILabel"; text = "未處理訂單0"; ObjectID = "Csr-xT-wHg"; */
+"Csr-xT-wHg.text" = "未處理訂單0";
+
+/* Class = "UILabel"; text = "你的好鄰居"; ObjectID = "DGr-Yo-Km2"; */
+"DGr-Yo-Km2.text" = "你的好鄰居";
+
+/* Class = "UIButton"; normalTitle = "編輯"; ObjectID = "DJI-GZ-rRR"; */
+"DJI-GZ-rRR.normalTitle" = "編輯";
+
+/* Class = "UIButton"; normalTitle = "送出"; ObjectID = "DN9-Sh-7rF"; */
+"DN9-Sh-7rF.normalTitle" = "送出";
+
+/* Class = "UILabel"; text = "TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST"; ObjectID = "DP5-xH-LLr"; */
+"DP5-xH-LLr.text" = "TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST";
+
+/* Class = "UILabel"; text = "測試店家名稱"; ObjectID = "DcF-j4-fe5"; */
+"DcF-j4-fe5.text" = "測試店家名稱";
+
+/* Class = "UINavigationItem"; title = "菜單"; ObjectID = "DdI-Pd-40N"; */
+"DdI-Pd-40N.title" = "菜單";
+
+/* Class = "UITextField"; placeholder = "輸入生日"; ObjectID = "Dim-DT-3qf"; */
+"Dim-DT-3qf.placeholder" = "輸入生日";
+
+/* Class = "UILabel"; text = "銷售金額"; ObjectID = "Dxh-7Z-vXa"; */
+"Dxh-7Z-vXa.text" = "銷售金額";
+
+/* Class = "UILabel"; text = "Menu Name 1"; ObjectID = "E2E-1Y-EuK"; */
+"E2E-1Y-EuK.text" = "Menu Name 1";
+
+/* Class = "UILabel"; text = "開始"; ObjectID = "E4R-Sv-0O2"; */
+"E4R-Sv-0O2.text" = "開始";
+
+/* Class = "UILabel"; text = "地址"; ObjectID = "Efz-0V-fXv"; */
+"Efz-0V-fXv.text" = "地址";
+
+/* Class = "UITableViewController"; title = "關於我們"; ObjectID = "Ehe-Df-y9n"; */
+"Ehe-Df-y9n.title" = "關於我們";
+
+/* Class = "UILabel"; text = "確認密碼"; ObjectID = "Elr-e5-u2g"; */
+"Elr-e5-u2g.text" = "確認密碼";
+
+/* Class = "UILabel"; text = "領餐時間"; ObjectID = "F1e-Kx-tKe"; */
+"F1e-Kx-tKe.text" = "領餐時間";
+
+/* Class = "UILabel"; text = "0$"; ObjectID = "FM1-ak-WGg"; */
+"FM1-ak-WGg.text" = "0$";
+
+/* Class = "UINavigationItem"; title = "系列"; ObjectID = "FWw-Zm-QIJ"; */
+"FWw-Zm-QIJ.title" = "系列";
+
+/* Class = "UILabel"; text = "教學"; ObjectID = "Fdr-jh-e53"; */
+"Fdr-jh-e53.text" = "教學";
+
+/* Class = "UILabel"; text = "關於我們"; ObjectID = "Feh-g8-T4N"; */
+"Feh-g8-T4N.text" = "關於我們";
+
+/* Class = "UILabel"; text = "NABER 0.01"; ObjectID = "Fem-7C-mf3"; */
+"Fem-7C-mf3.text" = "NABER 0.01";
+
+/* Class = "UILabel"; text = "商品"; ObjectID = "G6K-Kj-taH"; */
+"G6K-Kj-taH.text" = "商品";
+
+/* Class = "UITextField"; placeholder = "密碼"; ObjectID = "GbD-gl-OnQ"; */
+"GbD-gl-OnQ.placeholder" = "密碼";
+
+/* Class = "UILabel"; text = "成為店家"; ObjectID = "Gce-IA-pPU"; */
+"Gce-IA-pPU.text" = "成為店家";
+
+/* Class = "UITextField"; text = "08:00"; ObjectID = "Gd7-8y-MVp"; */
+"Gd7-8y-MVp.text" = "08:00";
+
+/* Class = "UILabel"; text = "提示震動"; ObjectID = "H4h-D8-YuD"; */
+"H4h-D8-YuD.text" = "提示震動";
+
+/* Class = "UIButton"; normalTitle = "登入"; ObjectID = "HCU-JY-Afh"; */
+"HCU-JY-Afh.normalTitle" = "登入";
+
+/* Class = "UILabel"; text = "$130 應得紅利 13"; ObjectID = "HG2-TJ-Utk"; */
+"HG2-TJ-Utk.text" = "$130 應得紅利 13";
+
+/* Class = "UILabel"; text = "XXX@abc.om"; ObjectID = "HKw-rw-sDv"; */
+"HKw-rw-sDv.text" = "XXX@abc.om";
+
+/* Class = "UILabel"; text = "應得紅利"; ObjectID = "HQG-iM-saw"; */
+"HQG-iM-saw.text" = "應得紅利";
+
+/* Class = "UIButton"; normalTitle = "記住帳號"; ObjectID = "Hc4-Kz-et6"; */
+"Hc4-Kz-et6.normalTitle" = "記住帳號";
+
+/* Class = "UILabel"; text = "常見問題"; ObjectID = "HmM-WM-YeI"; */
+"HmM-WM-YeI.text" = "常見問題";
+
+/* Class = "UILabel"; text = "0900-000-000"; ObjectID = "Hnv-jH-RFP"; */
+"Hnv-jH-RFP.text" = "0900-000-000";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "I4w-JC-uga"; */
+"I4w-JC-uga.text" = "Name";
+
+/* Class = "UIButton"; normalTitle = "自取"; ObjectID = "ICX-TL-a2T"; */
+"ICX-TL-a2T.normalTitle" = "自取";
+
+/* Class = "UILabel"; text = "電話"; ObjectID = "IQO-yC-cFB"; */
+"IQO-yC-cFB.text" = "電話";
+
+/* Class = "UIButton"; normalTitle = "可領取"; ObjectID = "IQo-KN-PPv"; */
+"IQo-KN-PPv.normalTitle" = "可領取";
+
+/* Class = "UILabel"; text = "電話"; ObjectID = "Inx-Ol-nBW"; */
+"Inx-Ol-nBW.text" = "電話";
+
+/* Class = "UILabel"; text = "總金額："; ObjectID = "IsI-No-jDp"; */
+"IsI-No-jDp.text" = "總金額：";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JHC-GY-WMZ"; */
+"JHC-GY-WMZ.text" = "Label";
+
+/* Class = "UILabel"; text = "2018-05-01"; ObjectID = "JYE-BB-Mof"; */
+"JYE-BB-Mof.text" = "2018-05-01";
+
+/* Class = "UITabBarItem"; title = "快速查詢"; ObjectID = "Jyn-2b-XUC"; */
+"Jyn-2b-XUC.title" = "快速查詢";
+
+/* Class = "UILabel"; text = "AM10:00~PM13:00"; ObjectID = "KHk-7W-UtT"; */
+"KHk-7W-UtT.text" = "AM10:00~PM13:00";
+
+/* Class = "UITabBarItem"; title = "訂單"; ObjectID = "KLx-Ri-857"; */
+"KLx-Ri-857.title" = "訂單";
+
+/* Class = "UITextField"; placeholder = "請輸入種類名稱"; ObjectID = "KQg-f4-Ipx"; */
+"KQg-f4-Ipx.placeholder" = "請輸入種類名稱";
+
+/* Class = "UILabel"; text = "100000"; ObjectID = "Kcv-oi-mUP"; */
+"Kcv-oi-mUP.text" = "100000";
+
+/* Class = "UITableViewController"; title = "關於我們"; ObjectID = "KwP-qv-FfW"; */
+"KwP-qv-FfW.title" = "關於我們";
+
+/* Class = "UILabel"; text = "選項"; ObjectID = "L5p-WX-QYL"; */
+"L5p-WX-QYL.text" = "選項";
+
+/* Class = "UILabel"; text = "06/08"; ObjectID = "L6x-gq-Atm"; */
+"L6x-gq-Atm.text" = "06/08";
+
+/* Class = "UILabel"; text = "加入購物車"; ObjectID = "LKC-zf-aKp"; */
+"LKC-zf-aKp.text" = "加入購物車";
+
+/* Class = "UILabel"; text = "$0"; ObjectID = "LXC-KE-mvT"; */
+"LXC-KE-mvT.text" = "$0";
+
+/* Class = "UIButton"; normalTitle = "刪除此需求"; ObjectID = "Lie-tC-kjr"; */
+"Lie-tC-kjr.normalTitle" = "刪除此需求";
+
+/* Class = "UILabel"; text = "$176"; ObjectID = "LmO-tm-bIP"; */
+"LmO-tm-bIP.text" = "$176";
+
+/* Class = "UIViewController"; title = "忘記密碼"; ObjectID = "MFZ-hB-ebg"; */
+"MFZ-hB-ebg.title" = "忘記密碼";
+
+/* Class = "UILabel"; text = "AM10:00~PM13:00"; ObjectID = "MQa-ic-cL8"; */
+"MQa-ic-cL8.text" = "AM10:00~PM13:00";
+
+/* Class = "UILabel"; text = "已閱讀並同意"; ObjectID = "MSw-E3-SBp"; */
+"MSw-E3-SBp.text" = "已閱讀並同意";
+
+/* Class = "UILabel"; text = "電話"; ObjectID = "MWo-69-MRA"; */
+"MWo-69-MRA.text" = "電話";
+
+/* Class = "UILabel"; text = "158"; ObjectID = "MYL-vk-IKL"; */
+"MYL-vk-IKL.text" = "158";
+
+/* Class = "UILabel"; text = "成為店家"; ObjectID = "Mcf-Me-0K0"; */
+"Mcf-Me-0K0.text" = "成為店家";
+
+/* Class = "UILabel"; text = "第三頁教學畫面需要填入"; ObjectID = "MhE-HB-hx0"; */
+"MhE-HB-hx0.text" = "第三頁教學畫面需要填入";
+
+/* Class = "UIButton"; normalTitle = "送出訂單"; ObjectID = "Mqi-ph-TQA"; */
+"Mqi-ph-TQA.normalTitle" = "送出訂單";
+
+/* Class = "UILabel"; text = "桃園市桃園區中山路988號"; ObjectID = "Mwh-ZV-U8a"; */
+"Mwh-ZV-U8a.text" = "桃園市桃園區中山路988號";
+
+/* Class = "UITextField"; placeholder = "選擇結束日期"; ObjectID = "NKe-Pi-BK0"; */
+"NKe-Pi-BK0.placeholder" = "選擇結束日期";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "NQW-qF-RnV"; */
+"NQW-qF-RnV.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITextView"; text = "第一條 個人資料之蒐集與目的\n成為NABER的會員，以便我們提供會員服務，需要您提供手機號碼、電子郵件、地址、生日、及建立新的帳號及密碼。在您加入NABER會員時，軟體系統將依您所要求的服務內容，擷取提供該等服務所必須蒐集之可供辨識個人之資料。若您不同意提供上述個人資料，請勿繼續使用NABER服務。\n\n第二條 個人資料之處理及利用\n您的個人資料會被我們蒐集，並將其使用在您所需的個別服務上。NABER亦可能將個人資料與其他資料合併，用以提供並改進或開發我們的產品、服務、內容及廣告。\n\n第三條 個人資料之保護\n您的資料將安全的儲存在NABER會員資料庫系統中，供軟體系統使用、處理，用以進行科技管理、資(通)訊業務與資料庫管理以及會員(籍)管理。\n\n第四條 網站對外之相關連結\nNABER可能提供其他網站或程式的連結，您可以經由NABER所提供的連結，點選進入其他網站。但該連結並不適用本App的隱私權保護政策，您必須參考該連結網站中的隱私保護政策。\n\n第五條 與第三人共用個人資料之政策 NABER絕不會提供、交換、出租或出售任何您的個人資料給其他個人、團體、私人企業或公務機關，但有法律依據或合約義務者，不在此限。\n前項但書之情形包括不限於：\n1.經由您書面同意。\n2.法律明文規定。\n3.為免除您生命、身體、自由或財產上之危險。\n4.與公務機關或學術研究機構合作，基於公共利益為統計或學術研究而有必要，且資料經過提供者處理或蒐集著依其揭露方式無從識別特定之當事人。\n5.當您在NABER裡的行為，違反服務條款或可能損害或妨礙NABER與其他使用者權益或導致任何人遭受損害時，經NABER管理單位研析揭露您的個人資料是為了辨識、聯絡或採取法律行動所必要者。\n6.有利於您的權益。\n7.NABER委託廠商協助蒐集、處理或利用您的個人資料時，將對委外廠商或個人善盡監督管理之責。"; ObjectID = "NUb-JY-l3E"; */
+"NUb-JY-l3E.text" = "第一條 個人資料之蒐集與目的\n成為NABER的會員，以便我們提供會員服務，需要您提供手機號碼、電子郵件、地址、生日、及建立新的帳號及密碼。在您加入NABER會員時，軟體系統將依您所要求的服務內容，擷取提供該等服務所必須蒐集之可供辨識個人之資料。若您不同意提供上述個人資料，請勿繼續使用NABER服務。\n\n第二條 個人資料之處理及利用\n您的個人資料會被我們蒐集，並將其使用在您所需的個別服務上。NABER亦可能將個人資料與其他資料合併，用以提供並改進或開發我們的產品、服務、內容及廣告。\n\n第三條 個人資料之保護\n您的資料將安全的儲存在NABER會員資料庫系統中，供軟體系統使用、處理，用以進行科技管理、資(通)訊業務與資料庫管理以及會員(籍)管理。\n\n第四條 網站對外之相關連結\nNABER可能提供其他網站或程式的連結，您可以經由NABER所提供的連結，點選進入其他網站。但該連結並不適用本App的隱私權保護政策，您必須參考該連結網站中的隱私保護政策。\n\n第五條 與第三人共用個人資料之政策 NABER絕不會提供、交換、出租或出售任何您的個人資料給其他個人、團體、私人企業或公務機關，但有法律依據或合約義務者，不在此限。\n前項但書之情形包括不限於：\n1.經由您書面同意。\n2.法律明文規定。\n3.為免除您生命、身體、自由或財產上之危險。\n4.與公務機關或學術研究機構合作，基於公共利益為統計或學術研究而有必要，且資料經過提供者處理或蒐集著依其揭露方式無從識別特定之當事人。\n5.當您在NABER裡的行為，違反服務條款或可能損害或妨礙NABER與其他使用者權益或導致任何人遭受損害時，經NABER管理單位研析揭露您的個人資料是為了辨識、聯絡或採取法律行動所必要者。\n6.有利於您的權益。\n7.NABER委託廠商協助蒐集、處理或利用您的個人資料時，將對委外廠商或個人善盡監督管理之責。";
+
+/* Class = "UIButton"; normalTitle = "忘記密碼"; ObjectID = "O47-DX-ahO"; */
+"O47-DX-ahO.normalTitle" = "忘記密碼";
+
+/* Class = "UITableViewController"; title = "帳號"; ObjectID = "Oj4-vm-YXy"; */
+"Oj4-vm-YXy.title" = "帳號";
+
+/* Class = "UILabel"; text = "備註欄"; ObjectID = "Oko-lc-h8K"; */
+"Oko-lc-h8K.text" = "備註欄";
+
+/* Class = "UILabel"; text = "商品"; ObjectID = "OoU-DC-eLw"; */
+"OoU-DC-eLw.text" = "商品";
+
+/* Class = "UILabel"; text = "接單時間"; ObjectID = "Ots-G5-vRO"; */
+"Ots-G5-vRO.text" = "接單時間";
+
+/* Class = "UINavigationItem"; title = "快速查詢"; ObjectID = "P3X-5C-67a"; */
+"P3X-5C-67a.title" = "快速查詢";
+
+/* Class = "UIButton"; normalTitle = "登出"; ObjectID = "P8c-Id-TNY"; */
+"P8c-Id-TNY.normalTitle" = "登出";
+
+/* Class = "UILabel"; text = "狀態"; ObjectID = "PB1-Mf-to6"; */
+"PB1-Mf-to6.text" = "狀態";
+
+/* Class = "UITextField"; placeholder = "請輸入你的姓名"; ObjectID = "PEj-S3-wi8"; */
+"PEj-S3-wi8.placeholder" = "請輸入你的姓名";
+
+/* Class = "UILabel"; text = "某某某某"; ObjectID = "PLh-Xj-DdE"; */
+"PLh-Xj-DdE.text" = "某某某某";
+
+/* Class = "UILabel"; text = "(200)"; ObjectID = "POO-Lm-01G"; */
+"POO-Lm-01G.text" = "(200)";
+
+/* Class = "UILabel"; text = "帳號"; ObjectID = "QDJ-kq-Hrn"; */
+"QDJ-kq-Hrn.text" = "帳號";
+
+/* Class = "UIButton"; normalTitle = "修改密碼"; ObjectID = "QH7-GA-CLP"; */
+"QH7-GA-CLP.normalTitle" = "修改密碼";
+
+/* Class = "UILabel"; text = "產品名稱"; ObjectID = "QNW-r0-WNv"; */
+"QNW-r0-WNv.text" = "產品名稱";
+
+/* Class = "UILabel"; text = "HeaderLabel"; ObjectID = "QPq-xB-oNa"; */
+"QPq-xB-oNa.text" = "HeaderLabel";
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "QTp-j0-dqW"; */
+"QTp-j0-dqW.text" = "About Us";
+
+/* Class = "UILabel"; text = "身份"; ObjectID = "QW5-uJ-KJn"; */
+"QW5-uJ-KJn.text" = "身份";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "QXA-hn-QL5"; */
+"QXA-hn-QL5.normalTitle" = "取消";
+
+/* Class = "UIButton"; normalTitle = "取消此單"; ObjectID = "Qcn-o9-jjp"; */
+"Qcn-o9-jjp.normalTitle" = "取消此單";
+
+/* Class = "UITextField"; text = "08:00"; ObjectID = "Qem-Wg-8N4"; */
+"Qem-Wg-8N4.text" = "08:00";
+
+/* Class = "UILabel"; text = "第四頁教學畫面需要填入"; ObjectID = "R05-fG-58Z"; */
+"R05-fG-58Z.text" = "第四頁教學畫面需要填入";
+
+/* Class = "UILabel"; text = "姓名"; ObjectID = "R2f-sI-hoS"; */
+"R2f-sI-hoS.text" = "姓名";
+
+/* Class = "UILabel"; text = "©2017 Melon LTD, Inc. 保留所有權利"; ObjectID = "R4b-VI-MCt"; */
+"R4b-VI-MCt.text" = "©2017 Melon LTD, Inc. 保留所有權利";
+
+/* Class = "UILabel"; text = "總額"; ObjectID = "R68-YU-Ycf"; */
+"R68-YU-Ycf.text" = "總額";
+
+/* Class = "UILabel"; text = "版本"; ObjectID = "R9p-ve-6dk"; */
+"R9p-ve-6dk.text" = "版本";
+
+/* Class = "UILabel"; text = "某某某"; ObjectID = "RBu-K1-ySp"; */
+"RBu-K1-ySp.text" = "某某某";
+
+/* Class = "UILabel"; text = "社會人士"; ObjectID = "RVX-Rx-T30"; */
+"RVX-Rx-T30.text" = "社會人士";
+
+/* Class = "UILabel"; text = "0$"; ObjectID = "RbA-vh-J1N"; */
+"RbA-vh-J1N.text" = "0$";
+
+/* Class = "UILabel"; text = "20"; ObjectID = "RcP-ge-vWw"; */
+"RcP-ge-vWw.text" = "20";
+
+/* Class = "UILabel"; text = "手機"; ObjectID = "RcW-PY-Jgg"; */
+"RcW-PY-Jgg.text" = "手機";
+
+/* Class = "UILabel"; text = "0987654321"; ObjectID = "Rct-ZH-ffe"; */
+"Rct-ZH-ffe.text" = "0987654321";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Rcu-xN-RqX"; */
+"Rcu-xN-RqX.text" = "0";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "RhS-Ph-Js2"; */
+"RhS-Ph-Js2.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "店家名稱"; ObjectID = "Rrd-EP-ClF"; */
+"Rrd-EP-ClF.text" = "店家名稱";
+
+/* Class = "UILabel"; text = "下訂時間"; ObjectID = "Rv3-1m-DGU"; */
+"Rv3-1m-DGU.text" = "下訂時間";
+
+/* Class = "UILabel"; text = "12"; ObjectID = "S4d-YD-rXN"; */
+"S4d-YD-rXN.text" = "12";
+
+/* Class = "UILabel"; text = "數量"; ObjectID = "S8d-Kh-sCR"; */
+"S8d-Kh-sCR.text" = "數量";
+
+/* Class = "UITextField"; placeholder = "請輸入手機號碼"; ObjectID = "SJq-6c-x2x"; */
+"SJq-6c-x2x.placeholder" = "請輸入手機號碼";
+
+/* Class = "UIButton"; normalTitle = "交易完成"; ObjectID = "SXe-Y9-vUX"; */
+"SXe-Y9-vUX.normalTitle" = "交易完成";
+
+/* Class = "UIButton"; normalTitle = "登出"; ObjectID = "Stw-3O-Fpa"; */
+"Stw-3O-Fpa.normalTitle" = "登出";
+
+/* Class = "UINavigationItem"; title = "設定"; ObjectID = "TNU-Eh-yIE"; */
+"TNU-Eh-yIE.title" = "設定";
+
+/* Class = "UILabel"; text = "test data:0"; ObjectID = "TbD-7X-qTL"; */
+"TbD-7X-qTL.text" = "test data:0";
+
+/* Class = "UIButton"; normalTitle = "刪除"; ObjectID = "TeW-EI-vAd"; */
+"TeW-EI-vAd.normalTitle" = "刪除";
+
+/* Class = "UILabel"; text = "訂餐步驟"; ObjectID = "TlL-eB-lsR"; */
+"TlL-eB-lsR.text" = "訂餐步驟";
+
+/* Class = "UILabel"; text = "接單時間"; ObjectID = "U9I-VW-5Ti"; */
+"U9I-VW-5Ti.text" = "接單時間";
+
+/* Class = "UILabel"; text = "商家公告"; ObjectID = "U9k-Yq-ycM"; */
+"U9k-Yq-ycM.text" = "商家公告";
+
+/* Class = "UITextField"; placeholder = "手機號碼"; ObjectID = "UDG-yd-0Uv"; */
+"UDG-yd-0Uv.placeholder" = "手機號碼";
+
+/* Class = "UILabel"; text = "特調系列"; ObjectID = "UFB-UC-2KN"; */
+"UFB-UC-2KN.text" = "特調系列";
+
+/* Class = "UILabel"; text = "距離1000M"; ObjectID = "UJq-48-wqi"; */
+"UJq-48-wqi.text" = "距離1000M";
+
+/* Class = "UILabel"; text = "營業時間："; ObjectID = "Uy2-Le-SF4"; */
+"Uy2-Le-SF4.text" = "營業時間：";
+
+/* Class = "UISegmentedControl"; V3o-mO-3XT.segmentTitles[0] = "依照類別"; ObjectID = "V3o-mO-3XT"; */
+"V3o-mO-3XT.segmentTitles[0]" = "依照類別";
+
+/* Class = "UISegmentedControl"; V3o-mO-3XT.segmentTitles[1] = "依照區域"; ObjectID = "V3o-mO-3XT"; */
+"V3o-mO-3XT.segmentTitles[1]" = "依照區域";
+
+/* Class = "UISegmentedControl"; V3o-mO-3XT.segmentTitles[2] = "依照距離"; ObjectID = "V3o-mO-3XT"; */
+"V3o-mO-3XT.segmentTitles[2]" = "依照距離";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VC8-FA-R2p"; */
+"VC8-FA-R2p.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "下單時間"; ObjectID = "VUb-mr-c2T"; */
+"VUb-mr-c2T.text" = "下單時間";
+
+/* Class = "UILabel"; text = "選項"; ObjectID = "VZ3-F4-AjI"; */
+"VZ3-F4-AjI.text" = "選項";
+
+/* Class = "UILabel"; text = "接單時間"; ObjectID = "Vek-IX-DHL"; */
+"Vek-IX-DHL.text" = "接單時間";
+
+/* Class = "UILabel"; text = "其它"; ObjectID = "Vhx-V6-a6g"; */
+"Vhx-V6-a6g.text" = "其它";
+
+/* Class = "UILabel"; text = "清玉民族店"; ObjectID = "WA9-aD-DLl"; */
+"WA9-aD-DLl.text" = "清玉民族店";
+
+/* Class = "UINavigationItem"; title = "訂餐"; ObjectID = "WAd-rQ-YBA"; */
+"WAd-rQ-YBA.title" = "訂餐";
+
+/* Class = "UILabel"; text = "結束"; ObjectID = "WJy-kx-mSj"; */
+"WJy-kx-mSj.text" = "結束";
+
+/* Class = "UILabel"; text = "某某某某"; ObjectID = "WK5-1m-kU6"; */
+"WK5-1m-kU6.text" = "某某某某";
+
+/* Class = "UIButton"; normalTitle = "送出訂單"; ObjectID = "WLt-46-eie"; */
+"WLt-46-eie.normalTitle" = "送出訂單";
+
+/* Class = "UILabel"; text = "06/07"; ObjectID = "WRV-qh-0ZZ"; */
+"WRV-qh-0ZZ.text" = "06/07";
+
+/* Class = "UITextField"; placeholder = "請輸入連絡人"; ObjectID = "WWD-Hh-Lsa"; */
+"WWD-Hh-Lsa.placeholder" = "請輸入連絡人";
+
+/* Class = "UIViewController"; title = "送單確認"; ObjectID = "XFF-6d-RgW"; */
+"XFF-6d-RgW.title" = "送單確認";
+
+/* Class = "UILabel"; text = "交易完成"; ObjectID = "XKA-uB-xp8"; */
+"XKA-uB-xp8.text" = "交易完成";
+
+/* Class = "UILabel"; text = "總銷售"; ObjectID = "XSA-d8-caQ"; */
+"XSA-d8-caQ.text" = "總銷售";
+
+/* Class = "UILabel"; text = "種類"; ObjectID = "XrK-Et-7O0"; */
+"XrK-Et-7O0.text" = "種類";
+
+/* Class = "UITabBarItem"; title = "訂單"; ObjectID = "XsX-Tv-kGJ"; */
+"XsX-Tv-kGJ.title" = "訂單";
+
+/* Class = "UIButton"; normalTitle = "已有帳號"; ObjectID = "Y0I-ok-i2d"; */
+"Y0I-ok-i2d.normalTitle" = "已有帳號";
+
+/* Class = "UILabel"; text = "NABER 0.01"; ObjectID = "YBg-pD-JiL"; */
+"YBg-pD-JiL.text" = "NABER 0.01";
+
+/* Class = "UILabel"; text = "Naber"; ObjectID = "YG0-3A-Zmp"; */
+"YG0-3A-Zmp.text" = "Naber";
+
+/* Class = "UILabel"; text = "紅利點數"; ObjectID = "YJ6-Xl-PQ2"; */
+"YJ6-Xl-PQ2.text" = "紅利點數";
+
+/* Class = "UIButton"; normalTitle = "儲存"; ObjectID = "YOq-Op-dja"; */
+"YOq-Op-dja.normalTitle" = "儲存";
+
+/* Class = "UILabel"; text = "45$"; ObjectID = "YRM-g0-FXX"; */
+"YRM-g0-FXX.text" = "45$";
+
+/* Class = "UILabel"; text = "20"; ObjectID = "Yg3-zf-Omo"; */
+"Yg3-zf-Omo.text" = "20";
+
+/* Class = "UITextField"; placeholder = "請輸入店家名稱"; ObjectID = "YnS-0G-p4f"; */
+"YnS-0G-p4f.placeholder" = "請輸入店家名稱";
+
+/* Class = "UILabel"; text = "今日結束接單"; ObjectID = "Ywh-zb-g9x"; */
+"Ywh-zb-g9x.text" = "今日結束接單";
+
+/* Class = "UITabBarItem"; title = "菜單"; ObjectID = "ZGH-GR-8Dy"; */
+"ZGH-GR-8Dy.title" = "菜單";
+
+/* Class = "UINavigationItem"; title = "訂單明細"; ObjectID = "ZGO-cN-bok"; */
+"ZGO-cN-bok.title" = "訂單明細";
+
+/* Class = "UITextField"; placeholder = "身分會影響往後開放的功能"; ObjectID = "ZGw-DW-wxJ"; */
+"ZGw-DW-wxJ.placeholder" = "身分會影響往後開放的功能";
+
+/* Class = "UILabel"; text = "400$"; ObjectID = "ZNR-zn-Mtg"; */
+"ZNR-zn-Mtg.text" = "400$";
+
+/* Class = "UILabel"; text = "聯絡人"; ObjectID = "ZbR-l6-bab"; */
+"ZbR-l6-bab.text" = "聯絡人";
+
+/* Class = "UILabel"; text = "帳號"; ObjectID = "Zco-vE-1Dv"; */
+"Zco-vE-1Dv.text" = "帳號";
+
+/* Class = "UIButton"; normalTitle = "送出"; ObjectID = "ZpP-9f-SAJ"; */
+"ZpP-9f-SAJ.normalTitle" = "送出";
+
+/* Class = "UILabel"; text = "查詢日期"; ObjectID = "a5t-QH-eob"; */
+"a5t-QH-eob.text" = "查詢日期";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "aEp-FM-AQD"; */
+"aEp-FM-AQD.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITextField"; placeholder = "請輸入密碼"; ObjectID = "aeM-Gq-uSE"; */
+"aeM-Gq-uSE.placeholder" = "請輸入密碼";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bBf-Jm-CLl"; */
+"bBf-Jm-CLl.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "有什麼需求或想告訴商家的嗎？"; ObjectID = "bFX-zO-Nnz"; */
+"bFX-zO-Nnz.placeholder" = "有什麼需求或想告訴商家的嗎？";
+
+/* Class = "UILabel"; text = "備註欄"; ObjectID = "bYD-KU-jba"; */
+"bYD-KU-jba.text" = "備註欄";
+
+/* Class = "UILabel"; text = "特調檸檬"; ObjectID = "bh0-kq-0Js"; */
+"bh0-kq-0Js.text" = "特調檸檬";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bhk-OY-05F"; */
+"bhk-OY-05F.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bzC-cc-XDp"; */
+"bzC-cc-XDp.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "c8d-Jg-sXu"; */
+"c8d-Jg-sXu.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "送出"; ObjectID = "cA9-do-BTS"; */
+"cA9-do-BTS.normalTitle" = "送出";
+
+/* Class = "UILabel"; text = "金額"; ObjectID = "cGe-rX-o4C"; */
+"cGe-rX-o4C.text" = "金額";
+
+/* Class = "UILabel"; text = "06/06"; ObjectID = "cKW-Yl-ZCR"; */
+"cKW-Yl-ZCR.text" = "06/06";
+
+/* Class = "UILabel"; text = "0975123456"; ObjectID = "cdy-LM-VHQ"; */
+"cdy-LM-VHQ.text" = "0975123456";
+
+/* Class = "UITabBarItem"; title = "購物車"; ObjectID = "cf8-8R-8BO"; */
+"cf8-8R-8BO.title" = "購物車";
+
+/* Class = "UILabel"; text = "姓名"; ObjectID = "cry-KW-Yn4"; */
+"cry-KW-Yn4.text" = "姓名";
+
+/* Class = "UILabel"; text = "應得紅利"; ObjectID = "d8d-24-3s3"; */
+"d8d-24-3s3.text" = "應得紅利";
+
+/* Class = "UILabel"; text = "0975666123"; ObjectID = "dIT-ZI-kOb"; */
+"dIT-ZI-kOb.text" = "0975666123";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "dJM-Gw-8X2"; */
+"dJM-Gw-8X2.text" = "$";
+
+/* Class = "UILabel"; text = "金額"; ObjectID = "dLB-Ia-dW5"; */
+"dLB-Ia-dW5.text" = "金額";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "dVl-D4-ZcN"; */
+"dVl-D4-ZcN.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "NABER隱私權政策"; ObjectID = "dbV-P8-RHA"; */
+"dbV-P8-RHA.text" = "NABER隱私權政策";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dy0-0A-04i"; */
+"dy0-0A-04i.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "e7H-Ba-GVX"; */
+"e7H-Ba-GVX.text" = "1";
+
+/* Class = "UILabel"; text = "珍珠奶茶"; ObjectID = "e8e-5L-taW"; */
+"e8e-5L-taW.text" = "珍珠奶茶";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "eEU-gl-LCx"; */
+"eEU-gl-LCx.text" = "0";
+
+/* Class = "UILabel"; text = "常見問題"; ObjectID = "eHz-FD-hVh"; */
+"eHz-FD-hVh.text" = "常見問題";
+
+/* Class = "UILabel"; text = "總金額"; ObjectID = "eoK-mf-vRm"; */
+"eoK-mf-vRm.text" = "總金額";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "epr-n8-C0L"; */
+"epr-n8-C0L.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "餐品名稱"; ObjectID = "euS-Kx-Jqd"; */
+"euS-Kx-Jqd.text" = "餐品名稱";
+
+/* Class = "UILabel"; text = "訂單狀態"; ObjectID = "f1v-cL-yxa"; */
+"f1v-cL-yxa.text" = "訂單狀態";
+
+/* Class = "UILabel"; text = "製作中的訂單"; ObjectID = "f8u-BG-Reu"; */
+"f8u-BG-Reu.text" = "製作中的訂單";
+
+/* Class = "UITextField"; placeholder = "請輸入新密碼"; ObjectID = "fTb-Wc-uiu"; */
+"fTb-Wc-uiu.placeholder" = "請輸入新密碼";
+
+/* Class = "UITextField"; placeholder = "請輸入Email"; ObjectID = "fjW-BZ-zfM"; */
+"fjW-BZ-zfM.placeholder" = "請輸入Email";
+
+/* Class = "UIButton"; normalTitle = "送出"; ObjectID = "foP-EM-PGJ"; */
+"foP-EM-PGJ.normalTitle" = "送出";
+
+/* Class = "UILabel"; text = "取餐時間"; ObjectID = "fou-uI-p0X"; */
+"fou-uI-p0X.text" = "取餐時間";
+
+/* Class = "UILabel"; text = "100000"; ObjectID = "fut-UY-jPr"; */
+"fut-UY-jPr.text" = "100000";
+
+/* Class = "UILabel"; text = "未處理訂單0"; ObjectID = "fwz-li-WPA"; */
+"fwz-li-WPA.text" = "未處理訂單0";
+
+/* Class = "UILabel"; text = "0987654321"; ObjectID = "g8q-d5-oVW"; */
+"g8q-d5-oVW.text" = "0987654321";
+
+/* Class = "UILabel"; text = "姓名"; ObjectID = "gKA-sa-K43"; */
+"gKA-sa-K43.text" = "姓名";
+
+/* Class = "UILabel"; text = "25"; ObjectID = "gLM-ju-sDE"; */
+"gLM-ju-sDE.text" = "25";
+
+/* Class = "UITextField"; placeholder = "輸入密碼"; ObjectID = "gUF-UX-nhy"; */
+"gUF-UX-nhy.placeholder" = "輸入密碼";
+
+/* Class = "UIButton"; normalTitle = "自取"; ObjectID = "gsV-hJ-rNT"; */
+"gsV-hJ-rNT.normalTitle" = "自取";
+
+/* Class = "UINavigationItem"; title = "訂單"; ObjectID = "h98-co-NI4"; */
+"h98-co-NI4.title" = "訂單";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "hDE-Io-yQA"; */
+"hDE-Io-yQA.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UINavigationItem"; title = "購物車"; ObjectID = "hNZ-Hh-UhO"; */
+"hNZ-Hh-UhO.title" = "購物車";
+
+/* Class = "UILabel"; text = "桃園市中壢區民族路二段130號"; ObjectID = "hOU-Cb-Gym"; */
+"hOU-Cb-Gym.text" = "桃園市中壢區民族路二段130號";
+
+/* Class = "UILabel"; text = "邁倫資訊科技有限公司"; ObjectID = "hUF-Hq-Kh2"; */
+"hUF-Hq-Kh2.text" = "邁倫資訊科技有限公司";
+
+/* Class = "UILabel"; text = "規格"; ObjectID = "hem-PF-KeG"; */
+"hem-PF-KeG.text" = "規格";
+
+/* Class = "UITextField"; placeholder = "確認密碼"; ObjectID = "hf4-ZJ-gCH"; */
+"hf4-ZJ-gCH.placeholder" = "確認密碼";
+
+/* Class = "UILabel"; text = "TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST"; ObjectID = "hhs-0Y-2aW"; */
+"hhs-0Y-2aW.text" = "TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST";
+
+/* Class = "UILabel"; text = "0$"; ObjectID = "iOs-vd-4jx"; */
+"iOs-vd-4jx.text" = "0$";
+
+/* Class = "UIViewController"; title = "選擇細項"; ObjectID = "iQr-ad-10S"; */
+"iQr-ad-10S.title" = "選擇細項";
+
+/* Class = "UITableViewController"; title = "重設密碼"; ObjectID = "iTB-G6-BCq"; */
+"iTB-G6-BCq.title" = "重設密碼";
+
+/* Class = "UILabel"; text = "$100000"; ObjectID = "ieB-wg-sW0"; */
+"ieB-wg-sW0.text" = "$100000";
+
+/* Class = "UIButton"; normalTitle = "註冊"; ObjectID = "irM-kq-hv6"; */
+"irM-kq-hv6.normalTitle" = "註冊";
+
+/* Class = "UILabel"; text = "已取消的訂單"; ObjectID = "jCc-20-xTj"; */
+"jCc-20-xTj.text" = "已取消的訂單";
+
+/* Class = "UITextField"; placeholder = "請輸入新密碼"; ObjectID = "jbv-ae-stQ"; */
+"jbv-ae-stQ.placeholder" = "請輸入新密碼";
+
+/* Class = "UIViewController"; title = "訂單名細"; ObjectID = "jk7-1s-7WH"; */
+"jk7-1s-7WH.title" = "訂單名細";
+
+/* Class = "UIViewController"; title = "準備送出"; ObjectID = "jkb-My-OcZ"; */
+"jkb-My-OcZ.title" = "準備送出";
+
+/* Class = "UILabel"; text = "關於我們"; ObjectID = "kRi-ND-2kZ"; */
+"kRi-ND-2kZ.text" = "關於我們";
+
+/* Class = "UILabel"; text = "提示"; ObjectID = "kTG-iw-dTv"; */
+"kTG-iw-dTv.text" = "提示";
+
+/* Class = "UINavigationItem"; title = "營運概況"; ObjectID = "kYr-Mc-06D"; */
+"kYr-Mc-06D.title" = "營運概況";
+
+/* Class = "UILabel"; text = "追加項目"; ObjectID = "kix-1a-GAe"; */
+"kix-1a-GAe.text" = "追加項目";
+
+/* Class = "UILabel"; text = "電話"; ObjectID = "lRa-Er-3jz"; */
+"lRa-Er-3jz.text" = "電話";
+
+/* Class = "UILabel"; text = "158"; ObjectID = "mCT-bO-oS3"; */
+"mCT-bO-oS3.text" = "158";
+
+/* Class = "UILabel"; text = "Money"; ObjectID = "mI1-zP-5GR"; */
+"mI1-zP-5GR.text" = "Money";
+
+/* Class = "UITextField"; placeholder = "輸入你的真實姓名，老闆想認識你"; ObjectID = "mLm-Ij-zMr"; */
+"mLm-Ij-zMr.placeholder" = "輸入你的真實姓名，老闆想認識你";
+
+/* Class = "UIButton"; normalTitle = "未處理"; ObjectID = "mLm-LS-3hS"; */
+"mLm-LS-3hS.normalTitle" = "未處理";
+
+/* Class = "UILabel"; text = "生日"; ObjectID = "mV7-25-9D0"; */
+"mV7-25-9D0.text" = "生日";
+
+/* Class = "UITextField"; placeholder = "須為現在時間20分鐘後"; ObjectID = "meA-gM-uX1"; */
+"meA-gM-uX1.placeholder" = "須為現在時間20分鐘後";
+
+/* Class = "UILabel"; text = "弘爺漢堡"; ObjectID = "mpa-Zn-XEd"; */
+"mpa-Zn-XEd.text" = "弘爺漢堡";
+
+/* Class = "UILabel"; text = "24日15點22分"; ObjectID = "n87-gh-TBZ"; */
+"n87-gh-TBZ.text" = "24日15點22分";
+
+/* Class = "UILabel"; text = "子類別"; ObjectID = "n8b-GV-hQr"; */
+"n8b-GV-hQr.text" = "子類別";
+
+/* Class = "UILabel"; text = "帳號"; ObjectID = "nHU-jr-bQ6"; */
+"nHU-jr-bQ6.text" = "帳號";
+
+/* Class = "UIButton"; normalTitle = "發送驗證碼"; ObjectID = "nV3-nU-LhT"; */
+"nV3-nU-LhT.normalTitle" = "發送驗證碼";
+
+/* Class = "UILabel"; text = "距離16M"; ObjectID = "nVs-wO-6Af"; */
+"nVs-wO-6Af.text" = "距離16M";
+
+/* Class = "UILabel"; text = "2018/06/01"; ObjectID = "ncX-BC-CKr"; */
+"ncX-BC-CKr.text" = "2018/06/01";
+
+/* Class = "UIButton"; normalTitle = "新增種類"; ObjectID = "ng5-L2-K8o"; */
+"ng5-L2-K8o.normalTitle" = "新增種類";
+
+/* Class = "UITextField"; placeholder = "請輸入連絡電話"; ObjectID = "nok-fZ-ksW"; */
+"nok-fZ-ksW.placeholder" = "請輸入連絡電話";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nvM-IW-DUQ"; */
+"nvM-IW-DUQ.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "送出"; ObjectID = "oNW-Xp-ubp"; */
+"oNW-Xp-ubp.normalTitle" = "送出";
+
+/* Class = "UIButton"; normalTitle = "送出"; ObjectID = "ohw-Ee-l6C"; */
+"ohw-Ee-l6C.normalTitle" = "送出";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "oq4-Os-57C"; */
+"oq4-Os-57C.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oue-jf-2ZI"; */
+"oue-jf-2ZI.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "弘爺漢堡"; ObjectID = "pAm-al-ocv"; */
+"pAm-al-ocv.text" = "弘爺漢堡";
+
+/* Class = "UITabBarItem"; title = "訂餐"; ObjectID = "pTv-Q7-aGb"; */
+"pTv-Q7-aGb.title" = "訂餐";
+
+/* Class = "UITableViewController"; title = "教學"; ObjectID = "pZH-nI-LxT"; */
+"pZH-nI-LxT.title" = "教學";
+
+/* Class = "UILabel"; text = "XXX"; ObjectID = "pmr-B3-y4B"; */
+"pmr-B3-y4B.text" = "XXX";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "q2q-84-wGc"; */
+"q2q-84-wGc.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "規格必選"; ObjectID = "q8x-l0-FYd"; */
+"q8x-l0-FYd.text" = "規格必選";
+
+/* Class = "UILabel"; text = "備註欄"; ObjectID = "qWG-cI-4jf"; */
+"qWG-cI-4jf.text" = "備註欄";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "qpp-pl-jcm"; */
+"qpp-pl-jcm.text" = "0";
+
+/* Class = "UITableViewController"; title = "幫助"; ObjectID = "qqY-7R-u6B"; */
+"qqY-7R-u6B.title" = "幫助";
+
+/* Class = "UITextField"; placeholder = "須為現在時間20分鐘後"; ObjectID = "quP-GX-qcz"; */
+"quP-GX-qcz.placeholder" = "須為現在時間20分鐘後";
+
+/* Class = "UILabel"; text = "第二頁教學畫面需要填入"; ObjectID = "rZC-46-uxV"; */
+"rZC-46-uxV.text" = "第二頁教學畫面需要填入";
+
+/* Class = "UILabel"; text = "商家名稱"; ObjectID = "ro8-Ki-A1a"; */
+"ro8-Ki-A1a.text" = "商家名稱";
+
+/* Class = "UIButton"; normalTitle = "新增單品"; ObjectID = "rxe-2z-Jvn"; */
+"rxe-2z-Jvn.normalTitle" = "新增單品";
+
+/* Class = "UILabel"; text = "最低價位"; ObjectID = "ryE-Vm-OGa"; */
+"ryE-Vm-OGa.text" = "最低價位";
+
+/* Class = "UILabel"; text = "測試商家名稱"; ObjectID = "s4Y-eK-FwT"; */
+"s4Y-eK-FwT.text" = "測試商家名稱";
+
+/* Class = "UILabel"; text = "203"; ObjectID = "sOT-ww-o1p"; */
+"sOT-ww-o1p.text" = "203";
+
+/* Class = "UILabel"; text = "密碼"; ObjectID = "sXL-RB-IUE"; */
+"sXL-RB-IUE.text" = "密碼";
+
+/* Class = "UILabel"; text = "總金額"; ObjectID = "sxz-sJ-rkg"; */
+"sxz-sJ-rkg.text" = "總金額";
+
+/* Class = "UITextField"; placeholder = "請輸入手機後四碼"; ObjectID = "szI-6e-Bdj"; */
+"szI-6e-Bdj.placeholder" = "請輸入手機後四碼";
+
+/* Class = "UITextField"; placeholder = "選擇開始日期"; ObjectID = "t8U-yD-ACs"; */
+"t8U-yD-ACs.placeholder" = "選擇開始日期";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "taG-RJ-BsN"; */
+"taG-RJ-BsN.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIViewController"; title = "餐廳"; ObjectID = "tvz-sq-C7v"; */
+"tvz-sq-C7v.title" = "餐廳";
+
+/* Class = "UINavigationItem"; title = "ＮABER"; ObjectID = "twM-GN-lY2"; */
+"twM-GN-lY2.title" = "ＮABER";
+
+/* Class = "UILabel"; text = "158"; ObjectID = "tyb-PT-fgP"; */
+"tyb-PT-fgP.text" = "158";
+
+/* Class = "UILabel"; text = "幫助"; ObjectID = "u3D-SR-1ja"; */
+"u3D-SR-1ja.text" = "幫助";
+
+/* Class = "UILabel"; text = "2018-05-01"; ObjectID = "u6s-qo-c8n"; */
+"u6s-qo-c8n.text" = "2018-05-01";
+
+/* Class = "UILabel"; text = "接單開關"; ObjectID = "uR2-fM-cuT"; */
+"uR2-fM-cuT.text" = "接單開關";
+
+/* Class = "UILabel"; text = "取餐時間"; ObjectID = "uW6-O8-Lad"; */
+"uW6-O8-Lad.text" = "取餐時間";
+
+/* Class = "UILabel"; text = "0900-000-000"; ObjectID = "ufu-2l-mOW"; */
+"ufu-2l-mOW.text" = "0900-000-000";
+
+/* Class = "UINavigationItem"; title = "設定"; ObjectID = "uq1-4B-6LB"; */
+"uq1-4B-6LB.title" = "設定";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "v8V-ng-RD9"; */
+"v8V-ng-RD9.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "你的姓名"; ObjectID = "v9a-0x-Kum"; */
+"v9a-0x-Kum.text" = "你的姓名";
+
+/* Class = "UILabel"; text = "找回密碼"; ObjectID = "vC5-11-bRv"; */
+"vC5-11-bRv.text" = "找回密碼";
+
+/* Class = "UILabel"; text = "版本"; ObjectID = "vpO-LO-3ai"; */
+"vpO-LO-3ai.text" = "版本";
+
+/* Class = "UITabBarItem"; title = "設定"; ObjectID = "wAb-4h-DS6"; */
+"wAb-4h-DS6.title" = "設定";
+
+/* Class = "UINavigationItem"; title = "NABER首頁"; ObjectID = "wM4-xY-ntk"; */
+"wM4-xY-ntk.title" = "NABER首頁";
+
+/* Class = "UINavigationItem"; title = "訂單"; ObjectID = "wP9-md-XIQ"; */
+"wP9-md-XIQ.title" = "訂單";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "wQz-uV-YPT"; */
+"wQz-uV-YPT.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "提示音效"; ObjectID = "wT6-Jl-bjV"; */
+"wT6-Jl-bjV.text" = "提示音效";
+
+/* Class = "UILabel"; text = "取餐時間："; ObjectID = "wa2-D4-Wha"; */
+"wa2-D4-Wha.text" = "取餐時間：";
+
+/* Class = "UIButton"; normalTitle = "查詢"; ObjectID = "woz-bC-qB7"; */
+"woz-bC-qB7.normalTitle" = "查詢";
+
+/* Class = "UITabBarItem"; title = "首頁"; ObjectID = "wq7-5N-xHt"; */
+"wq7-5N-xHt.title" = "首頁";
+
+/* Class = "UILabel"; text = "總金額"; ObjectID = "wsY-qU-QBM"; */
+"wsY-qU-QBM.text" = "總金額";
+
+/* Class = "UILabel"; text = "本月收入"; ObjectID = "xEA-Lq-0rf"; */
+"xEA-Lq-0rf.text" = "本月收入";
+
+/* Class = "UIButton"; normalTitle = "隱私權政策條款"; ObjectID = "xHZ-ql-PeU"; */
+"xHZ-ql-PeU.normalTitle" = "隱私權政策條款";
+
+/* Class = "UILabel"; text = "24日11點12分"; ObjectID = "xHv-oJ-aXC"; */
+"xHv-oJ-aXC.text" = "24日11點12分";
+
+/* Class = "UILabel"; text = "銷售金額"; ObjectID = "xMQ-nF-51J"; */
+"xMQ-nF-51J.text" = "銷售金額";
+
+/* Class = "UIButton"; normalTitle = "編輯"; ObjectID = "xN2-Xr-piH"; */
+"xN2-Xr-piH.normalTitle" = "編輯";
+
+/* Class = "UILabel"; text = "特調系列"; ObjectID = "xiF-fT-b4Y"; */
+"xiF-fT-b4Y.text" = "特調系列";
+
+/* Class = "UIViewController"; title = "產品細項"; ObjectID = "xjC-Yg-V4o"; */
+"xjC-Yg-V4o.title" = "產品細項";
+
+/* Class = "UILabel"; text = "今日結束接單"; ObjectID = "xto-1m-87U"; */
+"xto-1m-87U.text" = "今日結束接單";
+
+/* Class = "UILabel"; text = "店家位置"; ObjectID = "y4O-tc-hFK"; */
+"y4O-tc-hFK.text" = "店家位置";
+
+/* Class = "UIButton"; normalTitle = "自取"; ObjectID = "yHr-Zj-cRu"; */
+"yHr-Zj-cRu.normalTitle" = "自取";
+
+/* Class = "UITextField"; placeholder = "請輸入店家位置"; ObjectID = "yq7-Ay-2Z5"; */
+"yq7-Ay-2Z5.placeholder" = "請輸入店家位置";
+
+/* Class = "UILabel"; text = "接單時間"; ObjectID = "ysp-9b-Cbx"; */
+"ysp-9b-Cbx.text" = "接單時間";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zW4-rb-G6m"; */
+"zW4-rb-G6m.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "設定"; ObjectID = "zbK-KB-k6g"; */
+"zbK-KB-k6g.title" = "設定";
+
+/* Class = "UIButton"; normalTitle = "申請為店家"; ObjectID = "zfr-Q7-4KP"; */
+"zfr-Q7-4KP.normalTitle" = "申請為店家";
+
+/* Class = "UILabel"; text = "325桃園市龍潭鄉中興路209號"; ObjectID = "zxe-4f-lql"; */
+"zxe-4f-lql.text" = "325桃園市龍潭鄉中興路209號";

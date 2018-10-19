@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/user_shopping_odr_items"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/ordersItemIconImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        fresco:roundedCornerRadius="12dp"
+        fresco:failureImage="@drawable/naber_icon_logo_reverse"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:id="@+id/ordersItemNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/ordersItemIconImageView"
+        app:layout_constraintTop_toTopOf="@+id/ordersItemIconImageView" />
+
+    <TextView
+        android:id="@+id/ordersItemScopeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/ordersItemNameText"
+        app:layout_constraintTop_toBottomOf="@+id/ordersItemNameText" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/naber_reverse_gary_button_style"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/ordersItemIconImageView"
+        app:layout_constraintStart_toStartOf="@+id/ordersItemNameText">
+
+        <ImageButton
+            android:id="@+id/ordersItemMinusBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingEnd="2dp"
+            android:paddingStart="2dp"
+            android:src="@drawable/naber_remove_icon" />
+
+        <TextView
+            android:id="@+id/ordersItemQuantityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingEnd="0dp"
+            android:paddingStart="0dp"
+            android:text="1"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/ordersItemAddBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingEnd="2dp"
+            android:paddingStart="2dp"
+            android:src="@drawable/naber_add_icon" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ordersItemPriceText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout100"
+        app:layout_constraintEnd_toStartOf="@+id/menuEditDeleteBtn"
+        app:layout_constraintTop_toTopOf="@+id/menuEditDeleteBtn" />
+
+    <ImageButton
+        android:id="@+id/menuEditDeleteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/naber_trash_can_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout100"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

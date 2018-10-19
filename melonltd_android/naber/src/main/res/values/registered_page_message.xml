@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="registered_identity_text">身份</string>
+    <string name="registered_names_text">姓名</string>
+    <string name="registered_address_text">地址</string>
+    <string name="registered_email_text">Email</string>
+    <string name="registered_password_text">密碼</string>
+    <string name="registered_confirm_password_text">確認密碼</string>
+    <string name="registered_birthday_text">生日</string>
+
+    <string name="registered_address_hint_text">往後紅利兌換寄送使用</string>
+    <string name="registered_birthday_hint_text">找回密碼使用</string>
+
+    <string name="registered_submit_btn_text">註冊</string>
+    <string name="registered_existing_account_btn_text">已有帳號</string>
+
+
+</resources>

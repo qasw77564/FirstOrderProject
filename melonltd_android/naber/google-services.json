@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "349436914158",
+    "firebase_url": "https://naber-20180622.firebaseio.com",
+    "project_id": "naber-20180622",
+    "storage_bucket": "naber-20180622.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349436914158:android:67d1a6d91930211e",
+        "android_client_info": {
+          "package_name": "com.melonltd.naber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349436914158-14vg0v65io19qop3ra05l8btq5r37v1o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.melonltd.naber",
+            "certificate_hash": "d4eb20000fdd913d72996631f6ca0d4bfacc48a1"
+          }
+        },
+        {
+          "client_id": "349436914158-hvhiks0g4q6fa3d51rq24qurpgldcvgj.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "349436914158-hvhiks0g4q6fa3d51rq24qurpgldcvgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyFkbGuXSENCBGBWUw7tiyhNkI3r4kngs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349436914158-hvhiks0g4q6fa3d51rq24qurpgldcvgj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

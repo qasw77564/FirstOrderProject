@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seller_orders_logs_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.seller.page.SellerOrdersLogsFragment">
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/naber_basis"
+        android:padding="8dp"
+        android:text="查詢日期"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/startTimeText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/startTimeText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/naber_reverse_gary_button_style"
+        android:hint="選擇開始日期"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/sellerOrdersLogsBGARefreshLayout"
+        app:layout_constraintEnd_toStartOf="@+id/endTimeText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView98" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/shape_reverse_triangle"
+        app:layout_constraintBottom_toBottomOf="@+id/startTimeText"
+        app:layout_constraintEnd_toEndOf="@+id/startTimeText"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/endTimeText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/naber_reverse_gary_button_style"
+        android:hint="選擇結束日期"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/startTimeText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/startTimeText"
+        app:layout_constraintTop_toTopOf="@+id/startTimeText" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/shape_reverse_triangle"
+        app:layout_constraintBottom_toBottomOf="@+id/endTimeText"
+        app:layout_constraintEnd_toEndOf="@+id/endTimeText"
+        android:layout_marginRight="8dp" />
+
+    <cn.bingoogolapple.refreshlayout.BGARefreshLayout
+        android:id="@+id/sellerOrdersLogsBGARefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startTimeText">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/sellerOrdersLogsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fastScrollEnabled="false"
+            android:background="@android:color/white"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+
+    </cn.bingoogolapple.refreshlayout.BGARefreshLayout>
+
+</android.support.constraint.ConstraintLayout>

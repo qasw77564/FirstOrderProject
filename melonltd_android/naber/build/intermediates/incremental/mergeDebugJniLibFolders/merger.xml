@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/melon/Documents/git/melonltd_android/naber/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/melon/Documents/git/melonltd_android/naber/src/debug/jniLibs"/></dataSet></merger>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/naber_reverse_gary_button_style">
+
+        <TextView
+            android:id="@+id/demandText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="@color/naber_basis"
+            android:padding="8dp"
+            android:text="需求(必選)"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/demandLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/demandNameEdit"
+            android:layout_width="180dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/naber_white_text_box"
+            android:hint="請輸入需求名稱"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/demandText"
+            app:layout_constraintStart_toStartOf="@+id/demandText"
+            app:layout_constraintTop_toTopOf="@+id/demandText" />
+
+        <ImageButton
+            android:id="@+id/demandAddBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/naber_add_icon"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/demandLayout"
+            app:layout_constraintEnd_toEndOf="@+id/demandText"
+            app:layout_constraintTop_toTopOf="@+id/demandText" />
+
+        <Button
+            android:id="@+id/demandRemoveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/naber_red_button_style"
+            android:text="刪除此需求"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/demandText"
+            app:layout_constraintEnd_toStartOf="@+id/demandAddBtn"
+            app:layout_constraintTop_toTopOf="@+id/demandText" />
+
+        <LinearLayout
+            android:id="@+id/demandLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/demandText">
+
+            <RadioGroup
+                android:orientation="vertical"
+                android:id="@+id/demandRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="false"
+                android:layout_marginBottom="8dp"/>
+
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>
