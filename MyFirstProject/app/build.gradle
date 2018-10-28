@@ -30,6 +30,7 @@ dependencies {
     //firebase
     implementation 'com.google.firebase:firebase-core:16.0.1'
     implementation 'com.google.firebase:firebase-auth:15.1.0'
+    implementation 'com.google.android.gms:play-services-auth:15.0.1'
 
     //facebook
     implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
