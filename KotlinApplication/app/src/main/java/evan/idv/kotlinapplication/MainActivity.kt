@@ -16,44 +16,43 @@ import android.view.View
 import evan.idv.kotlinapplication.main.tab.DashboardFragment
 import evan.idv.kotlinapplication.main.tab.HomeFragment
 import evan.idv.kotlinapplication.main.tab.NotifyFragment
+import evan.idv.kotlinapplication.main.tab.OtherFragment
 import evan.idv.kotlinapplication.menu.CameraFragment
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
 
 
 class MainActivity : AppCompatActivity() {
-
-    private val TAG: String = MainActivity::class.java.simpleName as String
-
-    private var lastShowFragment: Int = 0
-    private var lastShowMenuFragment: Int = 0
-
-    private lateinit var selectedMenuListener: OnNavigationItemSelectedListener
-    private lateinit var backListener: View.OnClickListener
-
-    private lateinit var toggle: ActionBarDrawerToggle
-
-    private lateinit var fragments: List<Fragment>
-    private lateinit var menuFragments: List<Fragment>
+    //等於this
+    companion object {
+        private val TAG: String = MainActivity::class.java.simpleName as String
+        private var lastShowFragment: Int = 0
+        private var lastShowMenuFragment: Int = 0
+        private lateinit var selectedMenuListener: OnNavigationItemSelectedListener
+        private lateinit var backListener: View.OnClickListener
+        private lateinit var toggle: ActionBarDrawerToggle
+        private lateinit var fragments: List<Fragment>
+        private lateinit var menuFragments: List<Fragment>
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
-        this.toggle = ActionBarDrawerToggle(this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
-        drawer_layout.addDrawerListener(this.toggle)
-        this.toggle.syncState()
+        Companion.toggle = ActionBarDrawerToggle(this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
+        drawer_layout.addDrawerListener(Companion.toggle)
+        Companion.toggle.syncState()
 
         initFragments()
         initListener()
 
-        nav_view.setNavigationItemSelectedListener(this.selectedMenuListener)
+        nav_view.setNavigationItemSelectedListener(Companion.selectedMenuListener)
 
         navigationTab.setOnNavigationItemSelectedListener({ item ->
-            val current: Boolean? = (item.order == this.lastShowFragment).takeIf { !it }.apply {
-                switchTab(this@MainActivity.lastShowFragment, item.order)
-                this@MainActivity.lastShowFragment = item.order
+            val current: Boolean? = (item.order == Companion.lastShowFragment).takeIf { !it }.apply {
+                switchTab(Companion.lastShowFragment, item.order)
+                Companion.lastShowFragment = item.order
 
             }
             current != null && current != true
@@ -62,46 +61,48 @@ class MainActivity : AppCompatActivity() {
 
     private fun switchMenu(lastIndex: Int, index: Int) {
         val transaction: FragmentTransaction = supportFragmentManager.beginTransaction()
-        transaction.hide(this.fragments[this@MainActivity.lastShowFragment])
-        transaction.hide(this.menuFragments[lastIndex])
+        transaction.hide(Companion.fragments[Companion.lastShowFragment])
+        transaction.hide(Companion.menuFragments[lastIndex])
 
-        if (!this.menuFragments[index].isAdded) {
-            transaction.add(R.id.fragment_container, this.menuFragments[index])
+        if (!Companion.menuFragments[index].isAdded) {
+            transaction.add(R.id.fragment_container, Companion.menuFragments[index])
         }
 
-        (index == this.lastShowMenuFragment).takeIf { !it }?.apply {
+        (index == Companion.lastShowMenuFragment).takeIf { !it }?.apply {
             menuFragments[index].onResume()
         }
 
-        transaction.show(this.menuFragments[index]).commitAllowingStateLoss()
+        transaction.show(Companion.menuFragments[index]).commitAllowingStateLoss()
 
     }
 
     private fun switchTab(lastIndex: Int, index: Int) {
         val transaction: FragmentTransaction = supportFragmentManager.beginTransaction()
-        transaction.hide(this.fragments[lastIndex])
-        if (lastIndex < this.menuFragments.size) {
-            transaction.hide(this.menuFragments[lastIndex])
+        transaction.hide(Companion.fragments[lastIndex])
+        if (lastIndex < Companion.menuFragments.size) {
+            transaction.hide(Companion.menuFragments[lastIndex])
         }
 
-        if (!this.fragments[index].isAdded) {
-            transaction.add(R.id.fragment_container, this.fragments[index])
+        if (!Companion.fragments[index].isAdded) {
+            transaction.add(R.id.fragment_container, Companion.fragments[index])
         }
 
-        (index == this.lastShowFragment).takeIf { !it }?.apply {
+        (index == Companion.lastShowFragment).takeIf { !it }?.apply {
             fragments[index].onResume()
         }
 
-        transaction.show(this.fragments[index]).commitAllowingStateLoss()
+        transaction.show(Companion.fragments[index]).commitAllowingStateLoss()
     }
+
 
     private fun initFragments() {
         val homeFragment: Fragment = HomeFragment()
         val dashboardFragment: Fragment = DashboardFragment()
         val notifyFragment: Fragment = NotifyFragment()
+        val otherFragment : Fragment = OtherFragment()
         HomeFragment::class.java.newInstance()
-        this.fragments = listOf(homeFragment, dashboardFragment, notifyFragment)
-        this.lastShowFragment = 0
+        Companion.fragments = listOf(homeFragment, dashboardFragment, notifyFragment, otherFragment)
+        Companion.lastShowFragment = 0
 
         supportFragmentManager
                 .beginTransaction()
@@ -111,34 +112,34 @@ class MainActivity : AppCompatActivity() {
 
         // init Menu Fragment
         val cameraFragment: Fragment = CameraFragment()
-        this.menuFragments = listOf(cameraFragment)
+        Companion.menuFragments = listOf(cameraFragment)
 
     }
 
     private fun initListener() {
-        this.selectedMenuListener = OnNavigationItemSelectedListener { item ->
-            val current: Boolean? = (item.order == this.lastShowMenuFragment).takeIf { !it }.apply {
-                switchMenu(this@MainActivity.lastShowMenuFragment, item.order)
-                this@MainActivity.lastShowMenuFragment = item.order
+        Companion.selectedMenuListener = OnNavigationItemSelectedListener { item ->
+            val current: Boolean? = (item.order == Companion.lastShowMenuFragment).takeIf { !it }.apply {
+                switchMenu(Companion.lastShowMenuFragment, item.order)
+                Companion.lastShowMenuFragment = item.order
                 navigationTab.visibility = View.GONE
                 drawer_layout.closeDrawer(GravityCompat.START)
                 drawer_layout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED)
                 toolbar.navigationIcon = getDrawable(android.R.drawable.ic_menu_add)
-                toolbar.setNavigationOnClickListener (this@MainActivity.backListener)
+                toolbar.setNavigationOnClickListener (Companion.backListener)
             }
             current != null && current != true
             true
         }
 
-        this.backListener = View.OnClickListener { view ->
-            switchTab(this@MainActivity.lastShowMenuFragment, this@MainActivity.lastShowFragment)
+        Companion.backListener = View.OnClickListener { view ->
+            switchTab(Companion.lastShowMenuFragment, Companion.lastShowFragment)
             navigationTab.visibility = View.VISIBLE
             drawer_layout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED)
 
             toolbar.setNavigationOnClickListener(null)
-            this@MainActivity.toggle = ActionBarDrawerToggle(this@MainActivity, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
-            drawer_layout.addDrawerListener(this@MainActivity.toggle)
-            this@MainActivity.toggle.syncState()
+            Companion.toggle = ActionBarDrawerToggle(this@MainActivity, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
+            drawer_layout.addDrawerListener(Companion.toggle)
+            Companion.toggle.syncState()
         }
 
     }
