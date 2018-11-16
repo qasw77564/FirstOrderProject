@@ -6,10 +6,78 @@
     android:background="@android:color/holo_green_dark"
     tools:context=".main.tab.NotifyFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/notifyEdText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="85dp"
+            android:text="Text"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/notifyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="31dp"
+            android:layout_marginTop="155dp" />
+
+        <TextView
+            android:id="@+id/disCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:text="打折"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/disCountPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="237dp"
+            android:text="打折後"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/notifyPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/notifyEdText"
+            android:layout_centerVertical="true"
+            android:text="價格"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/notifyDisCountPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/notifyBtn"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="229dp"
+            android:text="折價後價格"
+            android:textSize="18sp" />
+
+        <SeekBar
+            android:id="@+id/notifySeeBar"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/notifyEdText"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="183dp" />
+
+
+    </RelativeLayout>
 
 </FrameLayout>
