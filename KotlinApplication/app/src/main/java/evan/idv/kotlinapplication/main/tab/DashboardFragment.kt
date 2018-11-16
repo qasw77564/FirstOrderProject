@@ -14,14 +14,14 @@ import evan.idv.kotlinapplication.R
 
 class DashboardFragment : Fragment() {
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+    }
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,  savedInstanceState: Bundle?): View? {
         val view : View = inflater.inflate(R.layout.fragment_dashboard, container, false)
         getViews(view)
         return view
-    }
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
     }
 
     override fun onResume() {
@@ -38,24 +38,28 @@ class DashboardFragment : Fragment() {
     }
 
     fun getViews(view : View){
-//        val i : Int = 0
-        val c : Int = 1
-        var count : Int = 0
-        val textView2 : TextView = view.findViewById(R.id.dashhText)
-        val textView : TextView = view.findViewById(R.id.dashText)
-        val btn : Button = view.findViewById(R.id.dashBtn)
-        btn.setOnClickListener(View.OnClickListener {
-            count += c
-            textView.setText(count.toString())
-            for (i in 1..10){
-                count += i
-                textView2.setText(count.toString())
-            }
-        })
-        textView.setOnClickListener(View.OnClickListener {
+        var d : Int = 0
+            val c : Int = 1
+            var count : Int = 0
+            val textView2 : TextView = view.findViewById(R.id.dashhText)
+            val textView : TextView = view.findViewById(R.id.dashText)
+            val btn : Button = view.findViewById(R.id.dashBtn)
+            btn.setOnClickListener(View.OnClickListener {
+                count += c
+                d += c
+                textView.setText(d.toString())
+                for (i in 1..10){
+                    count += i
+                    textView2.setText(count.toString())
+                }
+            })
+
+            textView.setOnClickListener(View.OnClickListener {
+                d = 0
             count = 0
             textView.setText(count.toString())
         })
     }
+
 
 }

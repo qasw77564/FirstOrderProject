@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "632156576152",
+    "firebase_url": "https://kotlinproject-e9047.firebaseio.com",
+    "project_id": "kotlinproject-e9047",
+    "storage_bucket": "kotlinproject-e9047.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632156576152:android:51d1104b1a58b5c6",
+        "android_client_info": {
+          "package_name": "evan.idv.kotlinapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632156576152-16rqnristnensl9466b4ni54spg15o5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk529Y7VSSPq6tcRa4Bwm8-AQnbTXcKAA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

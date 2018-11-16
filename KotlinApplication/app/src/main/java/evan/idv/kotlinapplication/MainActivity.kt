@@ -18,6 +18,7 @@ import evan.idv.kotlinapplication.main.tab.HomeFragment
 import evan.idv.kotlinapplication.main.tab.NotifyFragment
 import evan.idv.kotlinapplication.main.tab.OtherFragment
 import evan.idv.kotlinapplication.menu.CameraFragment
+import evan.idv.kotlinapplication.menu.GalleryFragment
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
 
@@ -112,7 +113,8 @@ class MainActivity : AppCompatActivity() {
 
         // init Menu Fragment
         val cameraFragment: Fragment = CameraFragment()
-        Companion.menuFragments = listOf(cameraFragment)
+        val galleryFragment : Fragment = GalleryFragment()
+        Companion.menuFragments = listOf(cameraFragment, galleryFragment)
 
     }
 
