@@ -1,3 +1,3 @@
-# Referenced at /Users/melon/Documents/git/melonltd_android/naber/build/intermediates/manifests/full/debug/AndroidManifest.xml:49
+# Referenced at /Users/qasw77564/Documents/Git/MyFirstProjec/melonltd_android/naber/build/intermediates/manifests/full/debug/AndroidManifest.xml:49
 -keep class android.support.multidex.MultiDexApplication { <init>(...); }
 

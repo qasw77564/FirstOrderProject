@@ -54,7 +54,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/naber_icon_logo_reverse"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme.NoActionBar" >
         <activity
             android:name="com.melonltd.naber.view.common.BaseIntroActivity"
