@@ -1,0 +1,21 @@
+﻿<Window x:Class="OrderMenu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OrderMenu"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1024" Width="768">
+    <Grid>
+        <CheckBox x:Name="Item1_Chk" Content="滷肉飯 30元" HorizontalAlignment="Left" Margin="98,45,0,0" VerticalAlignment="Top" Height="23" Width="87"/>
+        <CheckBox x:Name="Item2_Chk" Content="肉圓 35元" HorizontalAlignment="Left" Margin="98,111,0,0" VerticalAlignment="Top" Height="23" Width="87"/>
+        <CheckBox x:Name="Item3_Chk" Content="麵線 40元" HorizontalAlignment="Left" Margin="98,180,0,0" VerticalAlignment="Top" Height="23" Width="87"/>
+        <Button x:Name="SendOrder_Btn" Content="送單" HorizontalAlignment="Left" Margin="619,432,0,0" VerticalAlignment="Top" Height="32" Width="88"/>
+        <TextBox x:Name="Item1_txtbox" HorizontalAlignment="Left" Margin="298,39,0,0" TextWrapping="Wrap" Text="TextBox1" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Item2_txtbox" HorizontalAlignment="Left" Margin="298,105,0,0" TextWrapping="Wrap" Text="TextBox2" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Item3_txtbox" HorizontalAlignment="Left" Margin="298,174,0,0" TextWrapping="Wrap" Text="TextBox3" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="Item1_lbl" Content="碗" HorizontalAlignment="Left" Margin="446,35,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Item1_lb2" Content="個" HorizontalAlignment="Left" Margin="446,101,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Item1_lb3" Content="碗" HorizontalAlignment="Left" Margin="446,170,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
